@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.vivid-sec{
+
+  
+
+    margin-top: 180px;
+padding-left: 60px;}
+
+.vid1 {
+    position: absolute; /* Position the image inside the column */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-size: contain; /* Ensure the image fits inside the column */
+}
+.vid-img {
+    position: relative; /* Create a relative positioning context for the image */
+    
+}
+
+.vivid{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold; 
+    font-size: 40px;  
+}
+.vid{
+    color: #FF3F0F;
+}
+.ultra{
+    font-family: "Outfit", sans-serif;
+    font-weight: 500; 
+    font-size: 22px;  
+}
+.vivid-para{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400; 
+    font-size: 15px;  
+}
+.vivid-points {
+    font-family: "Outfit", sans-serif;
+    font-weight: 300; 
+    font-size: 17px;  
+}
+.sub-point1{
+    font-family: "Outfit", sans-serif;
+    font-weight: 300; 
+    font-size: 17px;  
+}
+
+
+
+@media screen and (max-width: 1200px) {
+
+    .vid1 {
+        position: absolute; /* Position the image inside the column */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        background-size: contain; /* Ensure the image fits inside the column */
+    }
+    .vid-img {
+        position: relative; /* Create a relative positioning context for the image */
+        
+    }
+    
+    .vivid{
+        font-family: "Outfit", sans-serif;
+        font-weight: bold; 
+        font-size: 40px;  
+    }
+    .vid{
+        color: #FF3F0F;
+    }
+    .ultra{
+        font-family: "Outfit", sans-serif;
+        font-weight: 500; 
+        font-size: 21px;  
+    }
+    .vivid-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400; 
+        font-size: 14px;  
+    }
+    .vivid-points {
+        font-family: "Outfit", sans-serif;
+        font-weight: 300; 
+        font-size: 16px;  
+    }
+    .sub-point1{
+        font-family: "Outfit", sans-serif;
+        font-weight: 300; 
+        font-size: 16px;  
+    }
+    
+
+}
+
+
+@media screen and (max-width: 992px) {
+
+    .vid1 {
+        position: absolute; /* Position the image inside the column */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        background-size: contain; /* Ensure the image fits inside the column */
+    }
+    .vid-img {
+        position: relative; /* Create a relative positioning context for the image */
+        
+    }
+    
+    .vivid{
+        font-family: "Outfit", sans-serif;
+        font-weight: bold; 
+        font-size: 40px;  
+    }
+    .vid{
+        color: #FF3F0F;
+    }
+    .ultra{
+        font-family: "Outfit", sans-serif;
+        font-weight: 500; 
+        font-size: 19px;  
+    }
+    .vivid-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400; 
+        font-size: 13px;  
+    }
+    .vivid-points {
+        font-family: "Outfit", sans-serif;
+        font-weight: 300; 
+        font-size: 15px;  
+    }
+    .sub-point1{
+        font-family: "Outfit", sans-serif;
+        font-weight: 300; 
+        font-size: 15px;  
+    }
+    
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .vid1 {
+        position: absolute; /* Position the image inside the column */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        background-size: contain; /* Ensure the image fits inside the column */
+    }
+    .vid-img {
+        position: relative; /* Create a relative positioning context for the image */
+        
+    }
+    
+    .vivid{
+        font-family: "Outfit", sans-serif;
+        font-weight: bold; 
+        font-size: 40px;  
+    }
+    .vid{
+        color: #FF3F0F;
+    }
+    .ultra{
+        font-family: "Outfit", sans-serif;
+        font-weight: 500; 
+        font-size: 18px;  
+    }
+    .vivid-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400; 
+        font-size: 11px;  
+    }
+    .vivid-points {
+        font-family: "Outfit", sans-serif;
+        font-weight: 300; 
+        font-size: 13px;  
+    }
+    .sub-point1{
+        font-family: "Outfit", sans-serif;
+        font-weight: 300; 
+        font-size: 13px;  
+    }
+    
+
+}
+
+@media screen and (max-width: 768px) {
+    .vivid-sec {
+        position: relative;
+        background-image: none; /* Remove background */
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: auto;
+        margin-top: 150px;
+        padding: 0px 40px;
+      }
+    
+      .bty-phone {
+        width: 100%;
+        height: auto; /* Ensure the bty image is responsive */
+        display: block;
+        margin: 20px auto; /* Center the image */
+      }
+    .vivid{
+        font-family: "Outfit", sans-serif;
+        font-weight: bold; 
+        font-size: 40px; 
+        text-align: center; 
+    }
+    .vid{
+        color: #FF3F0F;
+    }
+    .ultra{
+        font-family: "Outfit", sans-serif;
+        font-weight: 500; 
+        font-size: 22px; 
+        text-align: center; 
+ 
+    }
+    .vivid-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400; 
+        font-size: 15px;  
+    }
+    .vivid-points {
+        font-family: "Outfit", sans-serif;
+        font-weight: 300; 
+        font-size: 17px;  
+    }
+    .sub-point1{
+        font-family: "Outfit", sans-serif;
+        font-weight: 300; 
+        font-size: 17px;  
+    }
+    
+
+}
+
+@media screen and (max-width: 576px) {
+    .vivid-sec {
+        position: relative;
+        background-image: none; /* Remove background */
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: auto;
+        margin-top: 150px;
+        padding: 0px 30px;
+      }
+    
+      .bty-phone {
+        width: 100%;
+        height: auto; /* Ensure the bty image is responsive */
+        display: block;
+        margin: 20px auto; /* Center the image */
+      }
+    .vivid{
+        font-family: "Outfit", sans-serif;
+        font-weight: bold; 
+        font-size: 38px; 
+        text-align: center; 
+    }
+    .vid{
+        color: #FF3F0F;
+    }
+    .ultra{
+        font-family: "Outfit", sans-serif;
+        font-weight: 500; 
+        font-size: 20px; 
+        text-align: center; 
+ 
+    }
+    .vivid-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400; 
+        font-size: 13px;  
+    }
+    .vivid-points {
+        font-family: "Outfit", sans-serif;
+        font-weight: 300; 
+        font-size: 15px;  
+    }
+    .sub-point1{
+        font-family: "Outfit", sans-serif;
+        font-weight: 300; 
+        font-size: 15px;  
+    }
+    
+
+}
+
+@media screen and (max-width: 400px) {
+    .vivid-sec {
+        position: relative;
+        background-image: none; /* Remove background */
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: auto;
+        margin-top: 150px;
+        padding: 0px 20px;
+      }
+    
+      .bty-phone {
+        width: 100%;
+        height: auto; /* Ensure the bty image is responsive */
+        display: block;
+        margin: 20px auto; /* Center the image */
+      }
+    .vivid{
+        font-family: "Outfit", sans-serif;
+        font-weight: bold; 
+        font-size: 36px; 
+        text-align: center; 
+    }
+    .vid{
+        color: #FF3F0F;
+    }
+    .ultra{
+        font-family: "Outfit", sans-serif;
+        font-weight: 500; 
+        font-size: 18px; 
+        text-align: center; 
+ 
+    }
+    .vivid-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400; 
+        font-size: 12px;  
+    }
+    .vivid-points {
+        font-family: "Outfit", sans-serif;
+        font-weight: 300; 
+        font-size: 14px;  
+    }
+    .sub-point1{
+        font-family: "Outfit", sans-serif;
+        font-weight: 300; 
+        font-size: 14px;  
+    }
+    
+
+}

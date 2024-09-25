@@ -1,0 +1,892 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+.product-page {
+  padding: 0px 60px;
+  margin-top: 100px;
+  overflow: hidden;
+}
+.bt{
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  animation: float 2s ease-in-out infinite;
+
+}
+.bt1{
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  animation: float 2.5s ease-in-out infinite;
+
+}
+
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+
+
+.product-vivid{
+    margin-top: 150px;
+}
+.card-vigor {
+  width: 100%;
+  height: 550px;
+  background-color: #ffd3c0c6;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.vigor1 {
+  font-family: "Outfit", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #f25e53;
+}
+.vig {
+  color: #ff3f0f;
+}
+.you1 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.best {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+}
+.vigor-para1 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+.vigor-points1 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+.sub-point1 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.benefits {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  margin-left: 20px;
+}
+
+.bene-head {
+  font-family: "Outfit", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.bene-name {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+}
+.bene1 {
+  width: 70px;
+  height: 70px;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px; /* Place the indicators 10px above the bottom */
+  left: 50%; /* Center the indicators horizontally */
+  transform: translateX(-50%); /* Ensure proper centering */
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0; /* Reset margins to prevent misalignment */
+  list-style: none;
+  gap: 8px; /* Add some space between the dots */
+
+}
+.carousel-container {
+  width: 100%;
+  min-height: 400px; /* Ensure a stable height */
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-indicators button {
+  background-color: grey !important;
+  width: 6px !important;
+  height: 6px !important;
+  border-radius: 50%; /* Keep dots circular */
+  border: none;
+}
+
+
+.carousel-indicators .active {
+  background-color: #ff3f0f !important;
+}
+
+  
+  @media screen and (max-width: 1200px) {
+ 
+    .product-page {
+      padding: 0px 60px;
+      margin-top: 100px;
+    }
+    .bt{
+      width: 100%;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      animation: float 2s ease-in-out infinite;
+    
+    }
+    .bt1{
+      width: 100%;
+  height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      animation: float 2.5s ease-in-out infinite;
+    
+    }
+    .product-vivid{
+        margin-top: 150px;
+    }
+    .card-vigor {
+      width: 100%;
+      height: 550px;
+      background-color: #ffd3c0c6;
+      border-radius: 30px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .vigor1 {
+      font-family: "Outfit", sans-serif;
+      font-weight: bold;
+      font-size: 40px;
+      color: #f25e53;
+    }
+    .vig {
+      color: #ff3f0f;
+    }
+    .you1 {
+      font-family: "Outfit", sans-serif;
+      font-weight: 500;
+      font-size: 20px;
+    }
+    
+    .best {
+      font-family: "Outfit", sans-serif;
+      font-weight: 500;
+      font-size: 20px;
+    }
+    .vigor-para1 {
+      font-family: "Outfit", sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+    }
+    .vigor-points1 {
+      font-family: "Outfit", sans-serif;
+      font-weight: 300;
+      font-size: 15px;
+    }
+    .sub-point1 {
+      font-family: "Outfit", sans-serif;
+      font-weight: 300;
+      font-size: 15px;
+    }
+    
+    .benefits {
+      font-family: "Outfit", sans-serif;
+      font-weight: 500;
+      font-size: 20px;
+      margin-left: 20px;
+    }
+    
+    .bene-head {
+      font-family: "Outfit", sans-serif;
+      font-weight: bold;
+      font-size: 14px;
+    }
+    
+    .bene-name {
+      font-family: "Outfit", sans-serif;
+      font-weight: 500;
+      font-size: 10px;
+    }
+    .bene1 {
+      width: 70px;
+      height: 70px;
+    }
+    
+    .carousel-indicators {
+      position: absolute;
+      bottom: 10px; /* Place the indicators 10px above the bottom */
+      left: 50%; /* Center the indicators horizontally */
+      transform: translateX(-50%); /* Ensure proper centering */
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      margin: 0; /* Reset margins to prevent misalignment */
+      list-style: none;
+      gap: 8px; /* Add some space between the dots */
+    }
+    
+    .carousel-indicators button {
+      background-color: grey !important;
+      width: 6px !important;
+      height: 6px !important;
+      border-radius: 50%; /* Keep dots circular */
+      border: none;
+    }
+    
+    .carousel-indicators .active {
+      background-color: #ff3f0f !important;
+    }
+    
+
+
+  }
+
+
+
+  @media screen and (max-width: 992px) {
+ 
+    .product-page {
+      padding: 0px 60px;
+      margin-top: 100px;
+    }
+    .bt{
+      width: 100%;
+      height: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      animation: float 2s ease-in-out infinite;
+    
+    }
+    .bt1{
+      width: 100%;
+  height: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      animation: float 2.5s ease-in-out infinite;
+      margin-top: 50px;
+
+    }
+    .product-vivid{
+        margin-top: 150px;
+    }
+    .card-vigor {
+      width: 100%;
+      height: 480px;
+      background-color: #ffd3c0c6;
+      border-radius: 20px;
+      padding: 20px 0px!important;
+    }
+    
+    .vigor1 {
+      font-family: "Outfit", sans-serif;
+      font-weight: bold;
+      font-size: 40px;
+      color: #f25e53;
+    }
+    .vig {
+      color: #ff3f0f;
+    }
+    .you1 {
+      font-family: "Outfit", sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+    }
+    
+    .best {
+      font-family: "Outfit", sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+    }
+    .vigor-para1 {
+      font-family: "Outfit", sans-serif;
+      font-weight: 400;
+      font-size: 12px;
+    }
+    .vigor-points1 {
+      font-family: "Outfit", sans-serif;
+      font-weight: 300;
+      font-size: 13px;
+    }
+    .sub-point1 {
+      font-family: "Outfit", sans-serif;
+      font-weight: 300;
+      font-size: 13px;
+    }
+    
+    .benefits {
+      font-family: "Outfit", sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      margin-left: 20px;
+    }
+    
+    .bene-head {
+      font-family: "Outfit", sans-serif;
+      font-weight: bold;
+      font-size: 12px;
+    }
+    
+    .bene-name {
+      font-family: "Outfit", sans-serif;
+      font-weight: 500;
+      font-size: 9px;
+    }
+    .bene1 {
+      width: 60px;
+      height: 60px;
+    }
+    
+    .carousel-indicators {
+      position: absolute;
+      bottom: 10px; /* Place the indicators 10px above the bottom */
+      left: 50%; /* Center the indicators horizontally */
+      transform: translateX(-50%); /* Ensure proper centering */
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      margin: 0; /* Reset margins to prevent misalignment */
+      list-style: none;
+      gap: 8px; /* Add some space between the dots */
+    }
+    
+    .carousel-indicators button {
+      background-color: grey !important;
+      width: 6px !important;
+      height: 6px !important;
+      border-radius: 50%; /* Keep dots circular */
+      border: none;
+    }
+    
+    .carousel-indicators .active {
+      background-color: #ff3f0f !important;
+    }
+    
+
+
+
+  }
+
+
+  
+  @media screen and (max-width: 800px) {
+ 
+    .product-page {
+      padding: 0px 60px;
+      margin-top: 100px;
+    }
+    .bt{
+      width: 100%;
+      height: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      animation: float 2s ease-in-out infinite;
+    
+    }
+    .bt1{
+      width: 100%;
+  height: 70%;
+      margin-left: auto;
+      margin-right: auto;
+      animation: float 2.5s ease-in-out infinite;
+      margin-top: 70px;
+
+    }
+    .product-vivid{
+        margin-top: 150px;
+    }
+    .card-vigor {
+      width: 100%;
+      height: 500px;
+      background-color: #ffd3c0c6;
+      border-radius: 20px;
+      padding: 20px 0px!important;
+    }
+    
+    .vigor1 {
+      font-family: "Outfit", sans-serif;
+      font-weight: bold;
+      font-size: 40px;
+      color: #f25e53;
+    }
+    .vig {
+      color: #ff3f0f;
+    }
+    .you1 {
+      font-family: "Outfit", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+    }
+    
+    .best {
+      font-family: "Outfit", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+    }
+    .vigor-para1 {
+      font-family: "Outfit", sans-serif;
+      font-weight: 400;
+      font-size: 11px;
+    }
+    .vigor-points1 {
+      font-family: "Outfit", sans-serif;
+      font-weight: 300;
+      font-size: 12px;
+    }
+    .sub-point1 {
+      font-family: "Outfit", sans-serif;
+      font-weight: 300;
+      font-size: 12px;
+    }
+    
+    .benefits {
+      font-family: "Outfit", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      margin-left: 20px;
+    }
+    
+    .bene-head {
+      font-family: "Outfit", sans-serif;
+      font-weight: bold;
+      font-size: 11px;
+    }
+    
+    .bene-name {
+      font-family: "Outfit", sans-serif;
+      font-weight: 500;
+      font-size: 7px;
+    }
+    .bene1 {
+      width: 50px;
+      height: 50px;
+    }
+    
+    .carousel-indicators {
+      position: absolute;
+      bottom: 10px; /* Place the indicators 10px above the bottom */
+      left: 50%; /* Center the indicators horizontally */
+      transform: translateX(-50%); /* Ensure proper centering */
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      margin: 0; /* Reset margins to prevent misalignment */
+      list-style: none;
+      gap: 8px; /* Add some space between the dots */
+    }
+    
+    .carousel-indicators button {
+      background-color: grey !important;
+      width: 6px !important;
+      height: 6px !important;
+      border-radius: 50%; /* Keep dots circular */
+      border: none;
+    }
+    
+    .carousel-indicators .active {
+      background-color: #ff3f0f !important;
+    }
+    
+
+
+  }
+
+
+  @media screen and (max-width: 768px) {
+ 
+    .product-page {
+      padding: 0px 40px;
+      margin-top: 100px;
+    }
+    .bt{
+      width: 100%;
+      height:100% ;
+      margin-left: auto;
+      margin-right: auto;
+      animation: float 2s ease-in-out infinite;
+    
+    }
+    .bt1{
+      width: 100%;
+      height:100% ;
+
+      margin-left: auto;
+      margin-right: auto;
+      animation: float 2.5s ease-in-out infinite;
+      margin-top: 0px;
+    
+    }
+    .vid-phone{
+        margin-top: 150px;
+    }
+    .card-vigor {
+      padding: 0px; /* Remove padding */
+      width: 100%; /* Ensure it spans the full width of the screen */
+      background-color: #ffd3c0c6;
+      border-radius: 30px;
+    }
+    
+    .vigor1 {
+      font-family: "Outfit", sans-serif;
+      font-weight: bold;
+      font-size: 40px;
+      color: #f25e53;
+    }
+    .vig {
+      color: #ff3f0f;
+    }
+    .you1 {
+      font-family: "Outfit", sans-serif;
+      font-weight: 500;
+      font-size: 26px;
+    }
+    
+    .best {
+      font-family: "Outfit", sans-serif;
+      font-weight: 500;
+      font-size: 26px;
+    }
+    .vigor-para1 {
+      font-family: "Outfit", sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+    }
+    .vigor-points1 {
+      font-family: "Outfit", sans-serif;
+      font-weight: 300;
+      font-size: 19px;
+    }
+    .sub-point1 {
+      font-family: "Outfit", sans-serif;
+      font-weight: 300;
+      font-size: 19px;
+    }
+    
+    .benefits {
+      font-family: "Outfit", sans-serif;
+      font-weight: 500;
+      font-size: 26px;
+      margin-left: 20px;
+    }
+    
+    .bene-head {
+      font-family: "Outfit", sans-serif;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    
+    .bene-name {
+      font-family: "Outfit", sans-serif;
+      font-weight: 500;
+      font-size: 10px;
+    }
+    .bene1 {
+      width: 70px;
+      height: 70px;
+    }
+    
+    .carousel-indicators {
+      position: absolute;
+      bottom: 10px; /* Place the indicators 10px above the bottom */
+      left: 50%; /* Center the indicators horizontally */
+      transform: translateX(-50%); /* Ensure proper centering */
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      margin: 0; /* Reset margins to prevent misalignment */
+      list-style: none;
+      gap: 8px; /* Add some space between the dots */
+    }
+    
+    .carousel-indicators button {
+      background-color: grey !important;
+      width: 6px !important;
+      height: 6px !important;
+      border-radius: 50%; /* Keep dots circular */
+      border: none;
+    }
+    
+    .carousel-indicators .active {
+      background-color: #ff3f0f !important;
+    }
+    
+
+
+  }
+
+  @media screen and (max-width: 576px) {
+ 
+    .product-page {
+      padding: 0px 30px;
+      margin-top: 100px;
+    }
+    .bt{
+      width: 100%;
+      height:100% ;
+      margin-left: auto;
+      margin-right: auto;
+      animation: float 2s ease-in-out infinite;
+    
+    }
+    .bt1{
+      width: 100%;
+      height:100% ;
+
+      margin-left: auto;
+      margin-right: auto;
+      animation: float 2.5s ease-in-out infinite;
+      margin-top: 0px;
+    
+    }
+    .vid-phone{
+        margin-top: 150px;
+    }
+    .card-vigor {
+      padding: 0px; /* Remove padding */
+      width: 100%; /* Ensure it spans the full width of the screen */
+      height: 500px;
+      background-color: #ffd3c0c6;
+      border-radius: 30px;
+    }
+    
+    .vigor1 {
+      font-family: "Outfit", sans-serif;
+      font-weight: bold;
+      font-size: 38px;
+      color: #f25e53;
+    }
+    .vig {
+      color: #ff3f0f;
+    }
+    .you1 {
+      font-family: "Outfit", sans-serif;
+      font-weight: 500;
+      font-size: 24px;
+    }
+    
+    .best {
+      font-family: "Outfit", sans-serif;
+      font-weight: 500;
+      font-size: 24px;
+    }
+    .vigor-para1 {
+      font-family: "Outfit", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+    }
+    .vigor-points1 {
+      font-family: "Outfit", sans-serif;
+      font-weight: 300;
+      font-size: 17px;
+    }
+    .sub-point1 {
+      font-family: "Outfit", sans-serif;
+      font-weight: 300;
+      font-size: 17px;
+    }
+    
+    .benefits {
+      font-family: "Outfit", sans-serif;
+      font-weight: 500;
+      font-size: 24px;
+      margin-left: 20px;
+    }
+    
+    .bene-head {
+      font-family: "Outfit", sans-serif;
+      font-weight: bold;
+      font-size: 14px;
+    }
+    
+    .bene-name {
+      font-family: "Outfit", sans-serif;
+      font-weight: 500;
+      font-size: 9px;
+    }
+    .bene1 {
+      width: 60px;
+      height: 60px;
+    }
+    
+    .carousel-indicators {
+      position: absolute;
+      bottom: 10px; /* Place the indicators 10px above the bottom */
+      left: 50%; /* Center the indicators horizontally */
+      transform: translateX(-50%); /* Ensure proper centering */
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      margin: 0; /* Reset margins to prevent misalignment */
+      list-style: none;
+      gap: 8px; /* Add some space between the dots */
+    }
+    
+    .carousel-indicators button {
+      background-color: grey !important;
+      width: 6px !important;
+      height: 6px !important;
+      border-radius: 50%; /* Keep dots circular */
+      border: none;
+    }
+    
+    .carousel-indicators .active {
+      background-color: #ff3f0f !important;
+    }
+    
+
+
+
+  }
+
+  @media screen and (max-width: 400px) {
+ 
+    .product-page {
+      padding: 0px 20px;
+      margin-top: 100px;
+    }
+    .bt{
+      width: 100%;
+      height:100% ;
+      margin-left: auto;
+      margin-right: auto;
+      animation: float 2s ease-in-out infinite;
+    
+    }
+    .bt1{
+      width: 100%;
+      height:100% ;
+
+      margin-left: auto;
+      margin-right: auto;
+      animation: float 2.5s ease-in-out infinite;
+      margin-top: 0px;
+    
+    }
+    .vid-phone{
+        margin-top: 150px;
+    }
+    .card-vigor {
+      padding: 0px; /* Remove padding */
+      width: 100%; /* Ensure it spans the full width of the screen */
+      height: 550px;
+      background-color: #ffd3c0c6;
+      border-radius: 30px;
+    }
+    
+    .vigor1 {
+      font-family: "Outfit", sans-serif;
+      font-weight: bold;
+      font-size: 36px;
+      color: #f25e53;
+    }
+    .vig {
+      color: #ff3f0f;
+    }
+    .you1 {
+      font-family: "Outfit", sans-serif;
+      font-weight: 500;
+      font-size: 22px;
+    }
+    
+    .best {
+      font-family: "Outfit", sans-serif;
+      font-weight: 500;
+      font-size: 22px;
+    }
+    .vigor-para1 {
+      font-family: "Outfit", sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+    }
+    .vigor-points1 {
+      font-family: "Outfit", sans-serif;
+      font-weight: 300;
+      font-size: 15px;
+    }
+    .sub-point1 {
+      font-family: "Outfit", sans-serif;
+      font-weight: 300;
+      font-size: 15px;
+    }
+    
+    .benefits {
+      font-family: "Outfit", sans-serif;
+      font-weight: 500;
+      font-size: 22px;
+      margin-left: 20px;
+    }
+    
+    .bene-head {
+      font-family: "Outfit", sans-serif;
+      font-weight: bold;
+      font-size: 10px;
+    }
+    
+    .bene-name {
+      font-family: "Outfit", sans-serif;
+      font-weight: 500;
+      font-size: 6px;
+    }
+    .bene1 {
+      width: 50px;
+      height: 50px;
+    }
+    
+    .carousel-indicators {
+      position: absolute;
+      bottom: 10px; /* Place the indicators 10px above the bottom */
+      left: 50%; /* Center the indicators horizontally */
+      transform: translateX(-50%); /* Ensure proper centering */
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      margin: 0; /* Reset margins to prevent misalignment */
+      list-style: none;
+      gap: 8px; /* Add some space between the dots */
+    }
+    
+    .carousel-indicators button {
+      background-color: grey !important;
+      width: 6px !important;
+      height: 6px !important;
+      border-radius: 50%; /* Keep dots circular */
+      border: none;
+    }
+    
+    .carousel-indicators .active {
+      background-color: #ff3f0f !important;
+    }
+    
+
+
+
+  }

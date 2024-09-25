@@ -1,0 +1,463 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+.cont-sec{
+    padding: 0px 60px;
+}
+.cont-us{
+    text-align: center;
+    margin-top: 100px;
+}
+.cont {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  
+
+ 
+ 
+}
+.cont-para{
+    font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+ padding: 0px 140px;
+  
+}
+.cont-card{
+  border-radius: 26px;
+    width: 100%;
+    height:auto;
+    box-shadow: 0 4px 8px 0 rgba(118, 118, 118, 0.064), 0 6px 20px 0 rgba(0, 0, 0, 0.16);
+    padding: 80px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border:3px solid#F5855B;
+}
+.cont-input{
+  width: 100%;
+}
+.msg-btn.css-r5in8e-MuiInputBase-root-MuiInput-root{
+  font-family: "Outfit", sans-serif;
+  font-size: 16px!important;
+}
+
+.msg-btn.css-142372x-MuiButtonBase-root-MuiButton-root{
+  background-color: #F5855B;
+color:white;
+
+  font-family: "Outfit", sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+
+
+
+}
+
+.msg-btn.css-142372x-MuiButtonBase-root-MuiButton-root:hover{
+background-color:white;
+color: #F4815A;
+font-family: "Outfit", sans-serif;
+
+}
+
+
+@media screen and (max-width: 1200px) {
+
+
+  .cont-sec{
+    padding: 0px 60px;
+}
+.cont-us{
+    text-align: center;
+    margin-top: 100px;
+}
+.cont {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  
+
+ 
+ 
+}
+.cont-para{
+    font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+ padding: 0px 100px;
+  
+}
+.cont-card{
+  border-radius: 26px;
+    width: 100%;
+    height:auto;
+    box-shadow: 0 4px 8px 0 rgba(118, 118, 118, 0.064), 0 6px 20px 0 rgba(0, 0, 0, 0.16);
+    padding: 80px 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cont-input{
+  width: 100%;
+}
+
+
+.msg-btn.css-142372x-MuiButtonBase-root-MuiButton-root{
+  background-color: #F5855B;
+color:white;
+
+  font-family: "Outfit", sans-serif;
+font-size: 15spx;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+
+
+
+}
+
+.msg-btn.css-142372x-MuiButtonBase-root-MuiButton-root:hover{
+background-color:white;
+color: #F4815A;
+font-family: "Outfit", sans-serif;
+
+}
+
+}
+
+
+
+@media screen and (max-width: 992px) {
+
+
+  .cont-sec{
+    padding: 0px 60px;
+}
+.cont-us{
+    text-align: center;
+    margin-top: 100px;
+}
+.cont {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  
+
+ 
+ 
+}
+.cont-para{
+    font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+ padding: 0px 60px;
+  
+}
+.cont-card{
+  border-radius: 24px;
+    width: 100%;
+    height:auto;
+    box-shadow: 0 4px 8px 0 rgba(118, 118, 118, 0.064), 0 6px 20px 0 rgba(0, 0, 0, 0.16);
+    padding: 60px 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cont-input{
+  width: 100%;
+}
+
+
+.msg-btn.css-142372x-MuiButtonBase-root-MuiButton-root{
+  background-color: #F5855B;
+color:white;
+
+  font-family: "Outfit", sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+
+
+
+}
+.msg-btn.css-142372x-MuiButtonBase-root-MuiButton-root:hover{
+background-color:white;
+color: #F4815A;
+font-family: "Outfit", sans-serif;
+
+}
+
+}
+
+@media screen and (max-width: 800px) {
+
+
+  .cont-sec{
+    padding: 0px 60px;
+}
+.cont-us{
+    text-align: center;
+    margin-top: 100px;
+}
+.cont {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  
+
+ 
+ 
+}
+.cont-para{
+    font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+ padding: 0px 40px;
+  
+}
+.cont-card{
+  border-radius: 24px;
+    width: 100%;
+    height:auto;
+    box-shadow: 0 4px 8px 0 rgba(118, 118, 118, 0.064), 0 6px 20px 0 rgba(0, 0, 0, 0.16);
+    padding: 60px 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cont-input{
+  width: 100%;
+}
+
+
+.msg-btn.css-142372x-MuiButtonBase-root-MuiButton-root{
+  background-color: #F5855B;
+color:white;
+
+  font-family: "Outfit", sans-serif;
+font-size: 12px!important;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+
+
+
+}
+.msg-btn.css-142372x-MuiButtonBase-root-MuiButton-root:hover{
+background-color:white;
+color: #F4815A;
+font-family: "Outfit", sans-serif;
+
+}
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .cont-sec{
+    padding: 0px 40px;
+    margin-top: 100px;
+
+}
+
+.cont {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  text-align: center;
+
+ 
+ 
+}
+.cont-para{
+    font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+ padding: 0px 0px;
+ text-align: center;
+
+}
+.cont-card{
+  border-radius: 26px;
+    width: 100%;
+    height:auto;
+    box-shadow: 0 4px 8px 0 rgba(118, 118, 118, 0.064), 0 6px 20px 0 rgba(0, 0, 0, 0.16);
+    padding: 40px 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cont-input{
+  width: 100%;
+}
+.msg-btn.css-r5in8e-MuiInputBase-root-MuiInput-root{
+  font-family: "Outfit", sans-serif;
+  font-size: 16px!important;
+}
+
+.msg-btn.css-142372x-MuiButtonBase-root-MuiButton-root{
+  background-color: #F5855B;
+color:white;
+
+  font-family: "Outfit", sans-serif;
+font-size: 16px!important;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 10px 20px;
+
+
+
+
+}
+
+.msg-btn.css-142372x-MuiButtonBase-root-MuiButton-root:hover{
+background-color:white;
+color: #F4815A;
+font-family: "Outfit", sans-serif;
+
+}
+
+
+}
+
+
+@media screen and (max-width: 576px) {
+  .cont-sec{
+    padding: 0px 30px;
+    margin-top: 100px;
+
+}
+
+.cont {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 33px;
+  text-align: center;
+
+ 
+ 
+}
+.cont-para{
+    font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+ padding: 0px 0px;
+ text-align: center;
+
+}
+.cont-card{
+  border-radius: 26px;
+    width: 100%;
+    height:auto;
+    box-shadow: 0 4px 8px 0 rgba(118, 118, 118, 0.064), 0 6px 20px 0 rgba(0, 0, 0, 0.16);
+    padding: 40px 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cont-input{
+  width: 100%;
+}
+.msg-btn.css-r5in8e-MuiInputBase-root-MuiInput-root{
+  font-family: "Outfit", sans-serif;
+  font-size: 12px!important;
+}
+
+.msg-btn.css-142372x-MuiButtonBase-root-MuiButton-root{
+  background-color: #F5855B;
+color:white;
+
+  font-family: "Outfit", sans-serif;
+font-size: 12px!important;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 10px 20px;
+
+
+
+
+}
+
+.msg-btn.css-142372x-MuiButtonBase-root-MuiButton-root:hover{
+background-color:white;
+color: #F4815A;
+font-family: "Outfit", sans-serif;
+
+}
+
+
+}
+
+
+
+@media screen and (max-width: 400px) {
+  .cont-sec{
+    padding: 0px 20px;
+    margin-top: 100px;
+
+}
+
+.cont {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+
+ 
+ 
+}
+.cont-para{
+    font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+ padding: 0px 0px;
+ text-align: center;
+
+}
+.cont-card{
+  border-radius: 24px;
+    width: 100%;
+    height:auto;
+    box-shadow: 0 4px 8px 0 rgba(118, 118, 118, 0.064), 0 6px 20px 0 rgba(0, 0, 0, 0.16);
+    padding: 30px 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cont-input{
+  width: 100%;
+}
+.msg-btn.css-r5in8e-MuiInputBase-root-MuiInput-root{
+  font-family: "Outfit", sans-serif;
+  font-size: 12px!important;
+}
+
+.msg-btn.css-142372x-MuiButtonBase-root-MuiButton-root{
+  background-color: #F5855B;
+color:white;
+
+  font-family: "Outfit", sans-serif;
+font-size: 12px!important;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 10px 20px;
+
+
+
+
+}
+
+.msg-btn.css-142372x-MuiButtonBase-root-MuiButton-root:hover{
+background-color:white;
+color: #F4815A;
+font-family: "Outfit", sans-serif;
+
+}
+
+
+}

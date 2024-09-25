@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+.nav {
+  font-family: "Outfit", sans-serif;
+  padding: 0 60px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background-color:rgb(255, 255, 255);
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav.visible {
+  transform: translateY(0); 
+}
+
+.nav.hidden {
+  transform: translateY(-100%); /* Hidden on scrolling down */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+}
+
+.list-item {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.list-item li {
+  margin: 0 25px;
+}
+
+.list-item li a {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.list-item li a:hover {
+  color: #E96933;
+}
+
+.menu-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.contact-btn.css-142372x-MuiButtonBase-root-MuiButton-root {
+  background-color: #F4815A !important;
+  border-radius: 10px;
+  color: #ffff;
+  font-family: "Outfit", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 24px;
+}
+.menu-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.dropdown {
+  position: absolute;
+  top: calc(100% + 10px); 
+  left: 0;
+  width: 100%;
+  z-index: 1000; 
+  background-color: white; 
+  margin: 0px;
+  opacity: 1;
+  border-radius: 10px;
+
+}
+
+.dropdown.show {
+  display: block;
+}
+
+.dropdown .content {
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.064), 0 6px 20px 0 rgba(0, 0, 0, 0.16);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.dropdown .content a {
+  display: block;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+ 
+}
+
+
+.dropdown .content a:hover {
+  background-color:white;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.064), 0 6px 20px 0 rgba(0, 0, 0, 0.16); */
+  color: #f4815a;
+}
+
+@media screen and (max-width: 992px) {
+  .nav {
+    font-family: "Outfit", sans-serif;
+    padding: 0 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color:rgb(255, 255, 255);
+    transition: transform 0.3s ease-in-out;
+  }
+  .logo {
+    width: 110px!important;
+    height: auto;
+  }
+
+  .list-item li {
+    margin: 0 20px;
+  }
+
+  .list-item li a {
+    font-size: 12px;
+  }
+  .contact-btn.css-142372x-MuiButtonBase-root-MuiButton-root {
+    background-color: #F4815A !important;
+    border-radius: 10px;
+    color: #ffff;
+    font-family: "Outfit", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+      width: 80px;
+      height: auto;
+      padding: 0px;
+    }
+    .list-item li {
+      margin: 0px 16px;
+    }
+  
+    .list-item li a {
+      font-family: "Outfit", sans-serif;
+  font-weight: 500;
+      color:rgb(0, 0, 0);
+      text-decoration: none;
+      font-size: 10px;
+    }
+    .nav {
+      font-family: "Outfit", sans-serif;
+      padding: 0 40px;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      z-index: 1000;
+      background-color:rgb(255, 255, 255);
+      transition: transform 0.3s ease-in-out;
+    }
+  }
+
+
+  @media screen and (max-width: 576px) {
+    .logo {
+      width: 90px;
+      height: auto;
+    }
+   
+  
+  
+    .nav {
+      font-family: "Outfit", sans-serif;
+      padding: 0 20px;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      z-index: 1000;
+      background-color:rgb(255, 255, 255);
+      transition: transform 0.3s ease-in-out;
+    }
+  }

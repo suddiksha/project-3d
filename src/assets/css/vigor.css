@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.vigor-sec{
+
+
+    margin-top: 150px;
+padding-right: 60px;}
+
+.vig1 {
+    position: absolute; /* Position the image inside the column */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-size: contain; /* Ensure the image fits inside the column */
+}
+.vig-img {
+    position: relative; 
+    ;/* Create a relative positioning context for the image */
+}
+
+
+
+.vigor{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold; 
+    font-size: 40px;  
+}
+.vig{
+    color: #FF3F0F;
+}
+.you{
+    font-family: "Outfit", sans-serif;
+    font-weight: 500; 
+    font-size: 22px;  
+}
+.vigor-para{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400; 
+    font-size: 15px;  
+}
+.vigor-points {
+    font-family: "Outfit", sans-serif;
+    font-weight: 300; 
+    font-size: 17px;  
+}
+.sub-point{
+    font-family: "Outfit", sans-serif;
+    font-weight: 300; 
+    font-size: 17px;  
+}
+
+@media screen and (max-width: 1200px) {
+
+    .vig1 {
+        position: absolute; /* Position the image inside the column */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        background-size: contain; /* Ensure the image fits inside the column */
+    }
+   
+    
+    
+    .vigor{
+        font-family: "Outfit", sans-serif;
+        font-weight: bold; 
+        font-size: 40px;  
+    }
+    .vig{
+        color: #FF3F0F;
+    }
+    .you{
+        font-family: "Outfit", sans-serif;
+        font-weight: 500; 
+        font-size: 21px;  
+    }
+    .vigor-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400; 
+        font-size: 14px;  
+    }
+    .vigor-points {
+        font-family: "Outfit", sans-serif;
+        font-weight: 300; 
+        font-size: 16px;  
+    }
+    .sub-point{
+        font-family: "Outfit", sans-serif;
+        font-weight: 300; 
+        font-size: 16px;  
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+
+    .vig1 {
+        position: absolute; /* Position the image inside the column */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        background-size: contain; /* Ensure the image fits inside the column */
+    }
+    
+    
+    
+    .vigor{
+        font-family: "Outfit", sans-serif;
+        font-weight: bold; 
+        font-size: 40px;  
+    }
+    .vig{
+        color: #FF3F0F;
+    }
+    .you{
+        font-family: "Outfit", sans-serif;
+        font-weight: 500; 
+        font-size: 19px;  
+    }
+    .vigor-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400; 
+        font-size: 13px;  
+    }
+    .vigor-points {
+        font-family: "Outfit", sans-serif;
+        font-weight: 300; 
+        font-size: 15px;  
+    }
+    .sub-point{
+        font-family: "Outfit", sans-serif;
+        font-weight: 300; 
+        font-size: 15px;  
+    }
+
+}
+@media screen and (max-width: 800px) {
+
+   .vig1 {
+    position: absolute; /* Position the image inside the column */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-size: contain; /* Ensure the image fits inside the column */
+}
+    
+    
+    
+    .vigor{
+        font-family: "Outfit", sans-serif;
+        font-weight: bold; 
+        font-size: 40px;  
+    }
+    .vig{
+        color: #FF3F0F;
+    }
+    .you{
+        font-family: "Outfit", sans-serif;
+        font-weight: 500; 
+        font-size: 18px;  
+    }
+    .vigor-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400; 
+        font-size: 11px;  
+    }
+    .vigor-points {
+        font-family: "Outfit", sans-serif;
+        font-weight: 300; 
+        font-size: 13px;  
+    }
+    .sub-point{
+        font-family: "Outfit", sans-serif;
+        font-weight: 300; 
+        font-size: 13px;  
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .vigor-sec {
+      position: relative;
+      background-image: none; /* Remove background */
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: auto;
+      margin-top: 150px;
+      padding: 0px 40px;
+    }
+  
+    .bty-phone {
+      width: 100%;
+      height: auto; /* Ensure the bty image is responsive */
+      display: block;
+      margin: 20px auto; /* Center the image */
+    }
+    .vigor{
+        font-family: "Outfit", sans-serif;
+        font-weight: bold; 
+        font-size: 40px; 
+        text-align: center; 
+    }
+    .vig{
+        color: #FF3F0F;
+    }
+    .you{
+        font-family: "Outfit", sans-serif;
+        font-weight: 500; 
+        font-size: 22px;  
+        text-align: center; 
+
+    }
+    .vigor-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400; 
+        font-size: 15px;  
+
+    }
+    .vigor-points {
+        font-family: "Outfit", sans-serif;
+        font-weight: 300; 
+        font-size: 17px; 
+ 
+    }
+    .sub-point{
+        font-family: "Outfit", sans-serif;
+        font-weight: 300; 
+        font-size: 17px; 
+ 
+    }
+    
+  }
+  @media screen and (max-width: 576px) {
+    .vigor-sec {
+      position: relative;
+      background-image: none; 
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: auto;
+      margin-top: 150px;
+      padding: 0px 30px;
+    }
+  
+    .bty-phone {
+      width: 100%;
+      height: auto; 
+      display: block;
+      margin: 20px auto; 
+    }
+    .vigor{
+        font-family: "Outfit", sans-serif;
+        font-weight: bold; 
+        font-size: 38px; 
+        text-align: center; 
+    }
+    .vig{
+        color: #FF3F0F;
+    }
+    .you{
+        font-family: "Outfit", sans-serif;
+        font-weight: 500; 
+        font-size: 20px;  
+        text-align: center; 
+
+    }
+    .vigor-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400; 
+        font-size: 13px;  
+
+    }
+    .vigor-points {
+        font-family: "Outfit", sans-serif;
+        font-weight: 300; 
+        font-size: 15px; 
+ 
+    }
+    .sub-point{
+        font-family: "Outfit", sans-serif;
+        font-weight: 300; 
+        font-size: 15px; 
+ 
+    }
+    
+  }
+  @media screen and (max-width: 400px) {
+    .vigor-sec {
+      position: relative;
+      background-image: none; 
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: auto;
+      margin-top: 150px;
+      padding: 0px 20px;
+    }
+  
+    .bty-phone {
+      width: 100%;
+      height: auto; 
+      display: block;
+      margin: 20px auto; 
+    }
+    .vigor{
+        font-family: "Outfit", sans-serif;
+        font-weight: bold; 
+        font-size: 34px; 
+        text-align: center; 
+    }
+    .vig{
+        color: #FF3F0F;
+    }
+    .you{
+        font-family: "Outfit", sans-serif;
+        font-weight: 500; 
+        font-size: 18px;  
+        text-align: center; 
+
+    }
+    .vigor-para{
+        font-family: "Outfit", sans-serif;
+        font-weight: 400; 
+        font-size: 12px;  
+
+    }
+    .vigor-points {
+        font-family: "Outfit", sans-serif;
+        font-weight: 300; 
+        font-size: 14px; 
+ 
+    }
+    .sub-point{
+        font-family: "Outfit", sans-serif;
+        font-weight: 300; 
+        font-size: 14px; 
+ 
+    }
+    
+  }

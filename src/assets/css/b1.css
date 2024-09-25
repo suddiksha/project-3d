@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+.b1 {
+  margin-top: 30px;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.custom-canvas{
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+
+@media screen and (max-width: 1200px) {
+  .Canvas1 {
+    height: 400px !important;
+    width: 350px !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .Canvas1 {
+    height: 360px !important;
+    width: 300px !important;
+    margin-top: 10px!important;
+    overflow: hidden;
+    background-color: transparent;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .Canvas1 {
+    height: 340px !important;
+    width: 280px !important;
+    margin-top: 10px!important;
+    overflow: hidden;
+    background-color: transparent;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Canvas1 {
+    height: 310px !important;
+    width: 240px !important;
+    margin-top: 40px;
+    overflow: hidden;
+    background-color: transparent;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Canvas1 {
+    height: 260px !important;
+    width: 220px !important;
+    margin-top: 10px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .Canvas1 {
+      height: 240px !important;
+      width: 200px !important;
+      margin-top: 10px;
+      background-color: transparent;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
