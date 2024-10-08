@@ -14,12 +14,17 @@ canvas {
   margin-right: auto;
   }
 
-
+  .custom-canvas.Canvas1 {
+    display: block;
+    width: 600px; /* Default to full width */
+    height: auto; /* Auto height based on width */
+  }
 @media screen and (max-width: 1200px) {
-  .Canvas1 {
-    height: 400px !important;
+  Canvas {
+    height: 300px !important;
     width: 350px !important;
   }
+  
 }
 
 @media screen and (max-width: 992px) {

@@ -5,6 +5,7 @@ import Vig1 from "../../assets/images/vig.svg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Vigbt from "../battery/vig";
 
 function Vigor() {
   const isVigor = useMediaQuery({ query: "(max-width: 768px)" });
@@ -13,7 +14,7 @@ function Vigor() {
   });
   return (
     <>
-      <div className="vigor-sec">
+      <div className="vigor-sec ">
         {isVigor ? (
           <div className="vigor-phone">
             <h1 className="vigor" data-aos="fade-up">VIGOR</h1>
@@ -21,8 +22,10 @@ function Vigor() {
               YOU NEED <span className="vig">VIGOR</span> FOR ON-THE-GO-ENERGY
             </h3>
             <div className="row justify-content-center">
-              <div className="col-11 col-sm-12 mt-1" data-aos="fade-up">
-                <img src={Bty} alt="bty" className="bty-phone"></img>
+              <div className="col-11 col-sm-12 mt-1" data-aos="fade-up" id="vigor-section">
+                {/* <img src={Bty} alt="bty" className="bty-phone"></img> */}
+                <Vigbt/>
+
               </div>
             </div>
             <div className="row justify-content-center">
@@ -63,8 +66,9 @@ function Vigor() {
           </div>
         ) : (
           <div className="row justify-content-center m-0 ">
-            <div className="col-5 vig-img" >
-              <img src={Vig1} alt="bt" className="vig1"></img>
+            <div className="col-5 vig-img" id="vigor-section" >
+              {/* <img src={Vig1} alt="bt" className="vig1"></img> */}
+              <Vigbt/>
             </div>
             <div className="col-1"></div>
             <div className="col-6 ">

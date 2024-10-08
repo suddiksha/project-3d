@@ -16,23 +16,23 @@ import Cont from './components/contact-page/cont';
 function App() {
   return (
     <>
-
 <Nav/>
 
 <Router>
         <Routes>
-          <Route
-            path="/"
-            element={
-          <>
-                <Home />
-                <Card />
-                <Vigor />
-                <Vivid />
-                <Contact />
-              </>
-            }
-          />
+        <Route
+  path="/"
+  element={
+    <>
+          <Home />
+          <Card />
+          <Vigor />
+          <Vivid />
+          <Contact />
+    </>
+  }
+/>
+
 
           <Route path="/about" element={<About />} />
           <Route path="/cap" element={<Cap/>} />
@@ -45,7 +45,6 @@ function App() {
 
         </Routes>
       </Router>
-
 
 
 

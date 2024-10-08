@@ -1,22 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 .vigor-sec{
+ margin-top: 60px;
+padding-right: 60px;
+/* height: 100vh; */
+display: flex;          
+flex-direction: column;  
+justify-content: center; 
+align-items: center;    
+overflow: hidden; 
+}
+.vigor-phone{
+ margin-top: 100px;
+}
 
 
-    margin-top: 150px;
-padding-right: 60px;}
+
 
 .vig1 {
     position: absolute; /* Position the image inside the column */
     top: 0;
     left: 0;
     width: 100%;
-    height: auto;
-    background-size: contain; /* Ensure the image fits inside the column */
+    height:100%;
 }
 .vig-img {
     position: relative; 
     ;/* Create a relative positioning context for the image */
+    top:40px;
 }
 
 
@@ -25,6 +36,7 @@ padding-right: 60px;}
     font-family: "Outfit", sans-serif;
     font-weight: bold; 
     font-size: 40px;  
+    /* margin-top: 100px; */
 }
 .vig{
     color: #FF3F0F;
@@ -49,6 +61,8 @@ padding-right: 60px;}
     font-weight: 300; 
     font-size: 17px;  
 }
+
+
 
 @media screen and (max-width: 1200px) {
 
@@ -182,12 +196,7 @@ padding-right: 60px;}
 }
 @media screen and (max-width: 768px) {
     .vigor-sec {
-      position: relative;
-      background-image: none; /* Remove background */
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: contain;
-      height: auto;
+      
       margin-top: 150px;
       padding: 0px 40px;
     }
@@ -236,12 +245,7 @@ padding-right: 60px;}
   }
   @media screen and (max-width: 576px) {
     .vigor-sec {
-      position: relative;
-      background-image: none; 
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: contain;
-      height: auto;
+     
       margin-top: 150px;
       padding: 0px 30px;
     }
@@ -290,12 +294,7 @@ padding-right: 60px;}
   }
   @media screen and (max-width: 400px) {
     .vigor-sec {
-      position: relative;
-      background-image: none; 
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: contain;
-      height: auto;
+      
       margin-top: 150px;
       padding: 0px 20px;
     }

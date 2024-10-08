@@ -13,6 +13,8 @@ body{
 ::-webkit-scrollbar-thumb {
     background-color: #F5844D;
     border-radius: 10px; 
+    height: 30%;
 }
+
 
 

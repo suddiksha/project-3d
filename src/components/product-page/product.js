@@ -22,6 +22,8 @@ import Contact from "../contact/contact";
 import Vigor from "../../assets/images/b1.svg";
 import Vivid from "../../assets/images/b2.svg";
 import { useState, useEffect } from 'react';
+import V1 from "../product-page/v1";
+import V2 from "../product-page/v2";
 import Aos from "aos";
 import "aos/dist/aos.css";
  const useWindowSize = () => {
@@ -394,8 +396,9 @@ function Product() {
             <div className="product-vigor">
               <div className="row justify-content-center">
                 <div className="col-5 p-0">
-                  <div className="card card-vigor"  data-aos="zoom-out-right">
-                    <img src={Vigor} className="bt" alt="Battery" />
+                  <div className="card card-vigor"  data-aos="zoom-out-right" id="product-vigor">
+                    {/* <img src={Vigor} className="bt" alt="Battery" /> */}
+                    <V1/>
                   </div>
                 </div>
                 <div className="col-1"></div>
@@ -731,8 +734,9 @@ function Product() {
 
                 <div className="col-1"></div>
                 <div className="col-5">
-                  <div className="card card-vigor" data-aos="zoom-out-right">
-                    <img src={Vivid} className="bt1"></img>
+                  <div className="card card-vigor" data-aos="zoom-out-right" id="product-vivid">
+                    {/* <img src={Vivid} className="bt1"></img> */}
+                    <V2/>
                   </div>
                 </div>
               </div>

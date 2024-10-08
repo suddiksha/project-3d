@@ -7,8 +7,15 @@
 
 .about-us{
     padding: 0px 60px;
-    margin-top: 150px;
+    margin-top: 60px;
     overflow: hidden;
+}
+.about-sec{
+    height: 100vh;
+display: flex;          
+flex-direction: column;  
+justify-content: center; 
+align-items: center;  
 }
 .about{
     font-family: "Outfit", sans-serif;
@@ -27,11 +34,16 @@
 }
 .about-para{
     font-family: "Outfit", sans-serif;
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 300;
 }
 .mivi{
-    margin-top: 150px;
+    margin-top: 60px;
+    height: 100vh;
+    display: flex;          
+    flex-direction: column;  
+    justify-content: center; 
+    align-items: center;  
 }
 .vis{
 width: 362px;
@@ -69,12 +81,18 @@ height: 362px;
     font-weight: 700;
     margin-top: 100px;
 }
+.core-values.row {
+    display: flex;              /* Enables Flexbox */
+    justify-content: center;    /* Centers horizontally */
+    align-items: center;        /* Centers vertically */
+  }
 .core{
     font-family: "Outfit", sans-serif;
     font-size: 50px;
     font-style: normal;
     font-weight: 700;
     margin-top: 150px; 
+  
 }
 .core-para{
     font-family: "Outfit", sans-serif;
@@ -87,6 +105,7 @@ height: 362px;
     width: 90%;
     height: 90%;
     margin-top: 40px;
+    
 }
 
 

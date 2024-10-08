@@ -25,11 +25,27 @@ function About() {
       <div className="about-us">
         {isAbout ? (
           <>
-            <h1 className="about text-center" data-aos="fade-up" ata-aos-duration="1000">About Us</h1>
+            <h1
+              className="about text-center"
+              data-aos="fade-up"
+              ata-aos-duration="1000"
+            >
+              About Us
+            </h1>
             <div className="row justify-content-center about-row">
               <div className="col-12">
-                <img src={Abt} className="about-img mt-5 " alt="energy" data-aos="fade-up" ata-aos-duration="1200"></img>
-                <div className="about-para pt-0 pb-0 text-center mt-5" data-aos="fade-up" ata-aos-duration="1400">
+                <img
+                  src={Abt}
+                  className="about-img mt-5 "
+                  alt="energy"
+                  data-aos="fade-up"
+                  ata-aos-duration="1200"
+                ></img>
+                <div
+                  className="about-para pt-0 pb-0 text-center mt-5"
+                  data-aos="fade-up"
+                  ata-aos-duration="1400"
+                >
                   NexiGO Energy pioneers in Research and development of Advanced
                   Energy solutions to EV and Energy Storage markets. We
                   specialize in Designing, Developing and Delivering highly
@@ -43,11 +59,26 @@ function About() {
 
             <div className="row justify-content-center">
               <div className="col-12 text-center">
-                <h1 className="vision text-center" data-aos="fade-up" data-aos-duration="1000">Our Vision</h1>
+                <h1
+                  className="vision text-center"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
+                  Our Vision
+                </h1>
 
-                <img src={Vis} className="vis mt-5" data-aos="fade-up" data-aos-duration="1200"></img>
+                <img
+                  src={Vis}
+                  className="vis mt-5"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                ></img>
 
-                <p className="vis-para mt-5" data-aos="fade-up" data-aos-duration="1400">
+                <p
+                  className="vis-para mt-5"
+                  data-aos="fade-up"
+                  data-aos-duration="1400"
+                >
                   Our Vision is to increase Global adoption of sustainable
                   energy by Designing, Developing and Delivering cutting edge
                   technologies to Electric Vehicles and Energy storage markets.
@@ -56,11 +87,26 @@ function About() {
             </div>
 
             <div className="row justify-content-center">
-              <h1 className="mission text-center" data-aos="fade-up" data-aos-duration="1000">Our Mission</h1>
+              <h1
+                className="mission text-center"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                Our Mission
+              </h1>
 
               <div className="col-12 text-center">
-                <img src={Mis} className="mis mt-5" data-aos="fade-up" data-aos-duration="1200"></img>
-                <p className="mis-para mt-5" data-aos="fade-up" data-aos-duration="1400">
+                <img
+                  src={Mis}
+                  className="mis mt-5"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                ></img>
+                <p
+                  className="mis-para mt-5"
+                  data-aos="fade-up"
+                  data-aos-duration="1400"
+                >
                   Our Missions is to be best in the market of providing energy
                   solutions. We seek to develop the most technologically
                   advanced battery packs keeping Quality, Reliability,
@@ -73,91 +119,107 @@ function About() {
             </div>
 
             <div className="core-values ">
-              <h1 className="core text-center" data-aos="fade-up" data-aos-duration="1000">Core Values</h1>
+              <h1
+                className="core text-center"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                Core Values
+              </h1>
               <div className="row justify-content-center mt-5">
-                <div className="col-12" data-aos="fade-up" data-aos-duration="1200">
+                <div
+                  className="col-12"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                >
                   <img src={Core} className="core-img"></img>
                 </div>
-                  <p className="core-para  mt-3" data-aos="fade-right" >
-                    To provide clean and reliable energy storage solution that
-                    enhance the way people live and work around the world.
-                  </p>
-                  <Corevalues
-                    className="core1 mt-5"
-                    img={Core1}
-                    name="QUALITY"
-                    para="Manufactured using the latest technology and stringent quality control, our battery products are designed to exceed in performance and reliability."
-                    para1="Obtaining the best possible outcome in the least wasteful manner."
-                  ></Corevalues>
-                  <Corevalues
-                    className="core2"
-                    img={Core2}
-                    name="RELIABILITY"
-                    para="We uphold the values and principles of our organization in every action and decision."
-                    para1="To do our job to the best of our ability."
-                  ></Corevalues>
+                <p className="core-para  mt-3" data-aos="fade-right">
+                  To provide clean and reliable energy storage solution that
+                  enhance the way people live and work around the world.
+                </p>
+                <Corevalues
+                  className="core1 mt-5"
+                  img={Core1}
+                  name="QUALITY"
+                  para="Manufactured using the latest technology and stringent quality control, our battery products are designed to exceed in performance and reliability."
+                  para1="Obtaining the best possible outcome in the least wasteful manner."
+                ></Corevalues>
+                <Corevalues
+                  className="core2"
+                  img={Core2}
+                  name="RELIABILITY"
+                  para="We uphold the values and principles of our organization in every action and decision."
+                  para1="To do our job to the best of our ability."
+                ></Corevalues>
 
-                  <Corevalues
-                    className="core3"
-                    img={Core3}
-                    name="AFFORDABILITY"
-                    para="An affordable product or services is one that is within most people’s budget
+                <Corevalues
+                  className="core3"
+                  img={Core3}
+                  name="AFFORDABILITY"
+                  para="An affordable product or services is one that is within most people’s budget
                 then our product is affordable."
-                    para1="We develop affordable product that can easy to carry.
+                  para1="We develop affordable product that can easy to carry.
                 "
-                  ></Corevalues>
+                ></Corevalues>
 
-                  <Corevalues
-                    className="core4"
-                    img={Core4}
-                    name="INNOVATION"
-                    para="We advance through creativity and efficient processes to implement new ideas."
-                    para1="We encourage and development of new innovative products,technologies and ideas for development of new market."
-                  ></Corevalues>
-                  <Corevalues
-                    className="core5"
-                    img={Core5}
-                    name="CUSTOMER DELIGHT"
-                    para="Customer satisfaction is at the center of what we do everyday.
+                <Corevalues
+                  className="core4"
+                  img={Core4}
+                  name="INNOVATION"
+                  para="We advance through creativity and efficient processes to implement new ideas."
+                  para1="We encourage and development of new innovative products,technologies and ideas for development of new market."
+                ></Corevalues>
+                <Corevalues
+                  className="core5"
+                  img={Core5}
+                  name="CUSTOMER DELIGHT"
+                  para="Customer satisfaction is at the center of what we do everyday.
                 "
-                    para1="We are a trusted partner of our customer."
-                    para2="We build and maintain effective and proactive relationship with customers.
+                  para1="We are a trusted partner of our customer."
+                  para2="We build and maintain effective and proactive relationship with customers.
                 "
-                  ></Corevalues>
-                </div>
+                ></Corevalues>
               </div>
-           
+            </div>
           </>
         ) : (
           <>
-            <div className="row justify-content-center" data-aos="fade-left"
-    
-     data-aos-easing="ease-in-sine">
-              <div className="col-5 p-0">
-                <h1 className="about ">ABOUT US</h1>
+            <div className="about-sec">
+              <div
+                className="row justify-content-center"
+                data-aos="fade-left"
+                data-aos-easing="ease-in-sine"
+              >
+                <div className="col-5 p-0">
+                  <h1 className="about ">ABOUT US</h1>
 
-                <div className="about-para mt-4 ">
-                  NexiGO Energy pioneers in Research and development of Advanced
-                  Energy solutions to EV and Energy Storage markets. We
-                  specialize in Designing, Developing and Delivering highly
-                  efficient battery packs through Innovative packing methods and
-                  bringing cutting edge cell technologies to market. Our
-                  technology sets new standards in performance, reliability and
-                  safety.
+                  <div className="about-para mt-4 ">
+                    NexiGO Energy pioneers in Research and development of
+                    Advanced Energy solutions to EV and Energy Storage markets.
+                    We specialize in Designing, Developing and Delivering highly
+                    efficient battery packs through Innovative packing methods
+                    and bringing cutting edge cell technologies to market. Our
+                    technology sets new standards in performance, reliability
+                    and safety.
+                  </div>
                 </div>
-              </div>
-              <div className="col-1 p-0"></div>
-              <div className="col-6">
-                <img
-                  src={Abt}
-                  className="about-img text-center"
-                  alt="energy"
-                ></img>
+                <div className="col-1 p-0"></div>
+                <div className="col-6">
+                  <img
+                    src={Abt}
+                    className="about-img text-center"
+                    alt="energy"
+                  ></img>
+                </div>
               </div>
             </div>
 
             <div className="mivi">
-              <div className="row justify-content-center mt-5" data-aos="fade-right">
+              <div
+                className="row justify-content-center mt-5"
+                data-aos="fade-right"
+              >
                 <div className="col">
                   <img src={Vis} className="vis"></img>
                 </div>
@@ -171,7 +233,11 @@ function About() {
                   </p>
                 </div>
               </div>
-              <div className="row justify-content-center mt-5 pt-3" data-aos="fade-left" data-aos-delay="300">
+              <div
+                className="row justify-content-center mt-5 pt-3"
+                data-aos="fade-left"
+                data-aos-delay="300"
+              >
                 <div className="col">
                   <h1 className="mission ">Our Mission</h1>
                   <p className="mis-para mt-4">
@@ -191,8 +257,13 @@ function About() {
             </div>
 
             <div className="core-values ">
-              <h1 className="core text-center" data-aos="fade-up"
-     data-aos-anchor-placement="top-bottom">Core Values</h1>
+              <h1
+                className="core text-center"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+              >
+                Core Values
+              </h1>
               <div className="row justify-content-center mt-5">
                 <div className="col-6 p-0">
                   <img src={Core} className="core-img"></img>
@@ -251,7 +322,7 @@ function About() {
           </>
         )}
       </div>
-      <Contact/>
+      <Contact />
     </>
   );
 }

@@ -30,7 +30,9 @@
 .card-sec {
     padding: 0px 60px;
     margin-top: 150px;
-}
+
+  }
+  
 .ca1{
     width: 76px;
     height: 67px;
@@ -58,6 +60,17 @@
     text-align: center;
 }
 
+@media screen and (max-width: 1400px) {
+    .card-sec {
+        padding: 0px 60px;
+        margin-top: 60px;
+        height: 100vh;
+        display: flex;           /* Enables Flexbox */
+        flex-direction: column;  /* Stack items vertically */
+        justify-content: center; /* Centers items vertically */
+        align-items: center;     /* Centers items horizontally */
+      }
+}
 @media screen and (max-width: 1200px) {
     .ca1{
         width: 70px;
@@ -286,7 +299,7 @@
     }
     .card-sec {
         padding: 0px 40px;
-        margin-top: 150px;
+        margin-top: 280px;
     }
    
     .ca1{
@@ -347,7 +360,7 @@
     }
     .card-sec {
         padding: 0px 20px;
-        margin-top: 150px;
+        margin-top: 280px;
     }
    
     .ca1{

@@ -41,118 +41,119 @@ function Home() {
   };
 
   return (
-    <div className="home">
+    <div className="home ">
       {isHome ? (
         <div className="home-phone">
           <div className="landing-page">
-          <Carousel
-            activeIndex={activeSlide}
-            onSelect={handleSlideChange}
-            controls={false}
-            interval={2500}
-            indicators={false}
-          >
-               <Carousel.Item>
-            <div className="row justify-content-center ">
-              <div className="col-12 p-0">
-                <motion.h2
-                  className="emp mt-0"
-                  initial="hidden"
-                  animate={showText ? "visible" : "hidden"}
-                  variants={textVariants}
-                  transition={{ duration: 0.5, delay: 0.5 }}
-                >
-                  BEST IN CLASS PERFORMANCE
-                </motion.h2>
-                <div className="row m-0">
+            <Carousel
+              activeIndex={activeSlide}
+              onSelect={handleSlideChange}
+              controls={false}
+              interval={2500}
+              indicators={false}
+            >
+              <Carousel.Item>
+                <div className="row justify-content-center ">
                   <div className="col-12 p-0">
-                    <div className="three">
-                      <B1 />
+                    <motion.h2
+                      className="emp mt-0"
+                      initial="hidden"
+                      animate={showText ? "visible" : "hidden"}
+                      variants={textVariants}
+                      transition={{ duration: 0.5, delay: 0.5 }}
+                    >
+                      BEST IN CLASS PERFORMANCE
+                    </motion.h2>
+                    <div className="row m-0">
+                      <div className="col-12 p-0">
+                        <div className="three">
+                          <B1 />
+                        </div>
+                      </div>
                     </div>
+                    <motion.h3
+                      className="nex text-center mt-2"
+                      initial="hidden"
+                      animate={showText ? "visible" : "hidden"}
+                      variants={textVariants}
+                      transition={{ duration: 0.5, delay: 1 }}
+                    >
+                      Lithium-ion Battery
+                    </motion.h3>
+                    <motion.h2
+                      className="para pt-2 ps-0"
+                      initial="hidden"
+                      animate={showText ? "visible" : "hidden"}
+                      variants={textVariants}
+                      transition={{ duration: 0.5, delay: 1.5 }}
+                    >
+                      The VIGOR is a breakthrough in ENERGY needs for a
+                      Light-Electric Vechicle.
+                    </motion.h2>
+                    <motion.div
+                      initial="hidden"
+                      animate={showText ? "visible" : "hidden"}
+                      variants={textVariants}
+                      transition={{ duration: 0.5, delay: 2 }}
+                    >
+                      <Button variant="contained" className="learn-more1">
+                        LEARN MORE
+                      </Button>
+                    </motion.div>
                   </div>
                 </div>
-                <motion.h3
-                  className="nex text-center mt-2"
-                  initial="hidden"
-                  animate={showText ? "visible" : "hidden"}
-                  variants={textVariants}
-                  transition={{ duration: 0.5, delay: 1 }}
-                >
-                  Lithium-ion Battery
-                </motion.h3>
-                <motion.h2
-                  className="para pt-2 ps-0"
-                  initial="hidden"
-                  animate={showText ? "visible" : "hidden"}
-                  variants={textVariants}
-                  transition={{ duration: 0.5, delay: 1.5 }}
-                >
-                  The VIGOR is a breakthrough in ENERGY needs for a
-                  Light-Electric Vechicle.
-                </motion.h2>
-                <motion.div
-                  initial="hidden"
-                  animate={showText ? "visible" : "hidden"}
-                  variants={textVariants}
-                  transition={{ duration: 0.5, delay: 2 }}
-                >
-                  <Button variant="contained" className="learn-more1">
-                    LEARN MORE
-                  </Button>
-                </motion.div>
-              </div>
-            </div>
-            </Carousel.Item>
-            <Carousel.Item>
-            <div className="row justify-content-center ">
-              <div className="col-12 p-0">
-                <motion.h2
-                  className="emp mt-0"
-                  initial="hidden"
-                  animate={showText ? "visible" : "hidden"}
-                  variants={textVariants}
-                  transition={{ duration: 0.5, delay: 0.5 }}
-                >
-                 ULTRA FAST CHARGING
-                </motion.h2>
-                <div className="row m-0">
+              </Carousel.Item>
+              <Carousel.Item>
+                <div className="row justify-content-center ">
                   <div className="col-12 p-0">
-                    <div className="three">
-                      <B2 />
+                    <motion.h2
+                      className="emp mt-0"
+                      initial="hidden"
+                      animate={showText ? "visible" : "hidden"}
+                      variants={textVariants}
+                      transition={{ duration: 0.5, delay: 0.5 }}
+                    >
+                      ULTRA FAST CHARGING
+                    </motion.h2>
+                    <div className="row m-0">
+                      <div className="col-12 p-0">
+                        <div className="three">
+                          <B2 />
+                        </div>
+                      </div>
                     </div>
+                    <motion.h3
+                      className="nex text-center mt-2"
+                      initial="hidden"
+                      animate={showText ? "visible" : "hidden"}
+                      variants={textVariants}
+                      transition={{ duration: 0.5, delay: 1 }}
+                    >
+                      Highly Efficient & Safety{" "}
+                    </motion.h3>
+                    <motion.h2
+                      className="para pt-2 ps-0"
+                      initial="hidden"
+                      animate={showText ? "visible" : "hidden"}
+                      variants={textVariants}
+                      transition={{ duration: 0.5, delay: 1.5 }}
+                    >
+                      The VIVID is best in the WORLD battery pack for light
+                      electric vehicles.
+                    </motion.h2>
+                    <motion.div
+                      initial="hidden"
+                      animate={showText ? "visible" : "hidden"}
+                      variants={textVariants}
+                      transition={{ duration: 0.5, delay: 2 }}
+                    >
+                      <Button variant="contained" className="learn-more1">
+                        LEARN MORE
+                      </Button>
+                    </motion.div>
                   </div>
                 </div>
-                <motion.h3
-                  className="nex text-center mt-2"
-                  initial="hidden"
-                  animate={showText ? "visible" : "hidden"}
-                  variants={textVariants}
-                  transition={{ duration: 0.5, delay: 1 }}
-                >
- Highly Efficient & Safety                </motion.h3>
-                <motion.h2
-                  className="para pt-2 ps-0"
-                  initial="hidden"
-                  animate={showText ? "visible" : "hidden"}
-                  variants={textVariants}
-                  transition={{ duration: 0.5, delay: 1.5 }}
-                >
-                  The VIVID is best in the WORLD battery pack for light
-                  electric vehicles.
-                </motion.h2>
-                <motion.div
-                  initial="hidden"
-                  animate={showText ? "visible" : "hidden"}
-                  variants={textVariants}
-                  transition={{ duration: 0.5, delay: 2 }}
-                >
-                  <Button variant="contained" className="learn-more1">
-                    LEARN MORE
-                  </Button>
-                </motion.div>
-              </div>
-            </div>
-            </Carousel.Item>
+              </Carousel.Item>
             </Carousel>
           </div>
         </div>
@@ -162,7 +163,7 @@ function Home() {
             activeIndex={activeSlide}
             onSelect={handleSlideChange}
             controls={false}
-            interval={2500}
+            interval={3000}
             indicators={false}
           >
             {/* First Slide */}
@@ -206,7 +207,9 @@ function Home() {
                     </Button>
                   </motion.div>
                 </motion.div>
+
                 <div className="col-1"></div>
+
                 <motion.div
                   className="col-5 b1 p-0"
                   initial="hidden"
@@ -214,7 +217,7 @@ function Home() {
                   variants={modelVariants}
                   transition={{ duration: 0.5 }}
                 >
-                  <B1 />
+                  <B1 isActive={activeSlide === 0} />
                 </motion.div>
               </div>
             </Carousel.Item>
@@ -227,7 +230,7 @@ function Home() {
                   initial="hidden"
                   animate={showText ? "visible" : "hidden"}
                   variants={textVariants}
-                  transition={{ duration: 1, delay: 1 }}
+                  transition={{ duration: 0.5, delay: 0.5 }}
                 >
                   <h1 className="emp">ULTRA FAST CHARGING</h1>
                   <motion.h3
@@ -235,7 +238,7 @@ function Home() {
                     initial="hidden"
                     animate={showText ? "visible" : "hidden"}
                     variants={textVariants}
-                    transition={{ duration: 1, delay: 1 }}
+                    transition={{ duration: 0.5, delay: 1 }}
                   >
                     Highly Efficient & Safety{" "}
                   </motion.h3>
@@ -244,7 +247,7 @@ function Home() {
                     initial="hidden"
                     animate={showText ? "visible" : "hidden"}
                     variants={textVariants}
-                    transition={{ duration: 1, delay: 1 }}
+                    transition={{ duration: 0.5, delay: 1.5 }}
                   >
                     The VIVID is best in the WORLD battery pack for light
                     electric vehicles.
@@ -253,14 +256,16 @@ function Home() {
                     initial="hidden"
                     animate={showText ? "visible" : "hidden"}
                     variants={textVariants}
-                    transition={{ duration: 1, delay: 1 }}
+                    transition={{ duration: 0.5, delay: 2 }}
                   >
                     <Button variant="contained" className="learn-more">
                       LEARN MORE
                     </Button>
                   </motion.div>
                 </motion.div>
+
                 <div className="col-1"></div>
+
                 <motion.div
                   className="col-5 b1 p-0"
                   initial="hidden"
@@ -268,7 +273,7 @@ function Home() {
                   variants={modelVariants}
                   transition={{ duration: 0.5 }}
                 >
-                  <B2 />
+                  <B2 isActive={activeSlide === 0} />
                 </motion.div>
               </div>
             </Carousel.Item>

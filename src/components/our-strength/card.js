@@ -13,12 +13,16 @@ function Card() {
   });
   return (
     <>
-      <div className="card-sec ">
-        <h1 className="our" data-aos="fade-up"
-     data-aos-duration="2000">OUR STRENGHTS</h1>
-        <div className="row crd" data-aos="fade-right"
-     data-aos-offset="200"
-     data-aos-easing="ease-in-sine">
+      <div className="card-sec">
+        <h1 className="our" data-aos="fade-up" data-aos-duration="2000">
+          OUR STRENGHTS
+        </h1>
+        <div
+          className="row crd"
+          data-aos="fade-right"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-sine"
+        >
           <div className="col-12 col-lg-4 col-md-4 col-sm-12 ">
             <div className="card">
               <img src={Top} alt="rec" className="rec"></img>

@@ -77,9 +77,11 @@ function Nav() {
                 <li className="nav-item"><a href="/product">PRODUCTS</a></li>
                 <li className="nav-item"><a href="/market">MARKETS</a></li>
                 <li className="nav-item"><a href="/cap">CAPABILITIES</a></li>
-                <li className="nav-item"><a href="/cont">
-                  <Button variant="contained" className="contact-btn">CONTACT US</Button>
-                </a></li>
+                <li className="nav-item no-line">
+  <a href="/cont">
+    <Button variant="contained" className="contact-btn">CONTACT US</Button>
+  </a>
+</li>
               </ul>
             )}
           </div>

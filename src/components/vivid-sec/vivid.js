@@ -5,6 +5,7 @@ import Bty2 from "../../assets/images/bty2.svg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Vidbt from "../battery/vid";
 
 
 function Vivid() {
@@ -22,8 +23,9 @@ function Vivid() {
               <span className="vid">ULTRA FAST</span> CHARGING & LIFE
             </h3>
             <div className="row justify-content-center">
-              <div className="col-11 col-sm-12 mt-1" data-aos="fade-up">
-                <img src={Bty2} alt="bty" className="bty-phone"></img>
+              <div className="col-11 col-sm-12 mt-1" data-aos="fade-up" id="vivid-section">
+                {/* <img src={Bty2} alt="bty" className="bty-phone"></img> */}
+                <Vidbt/>
               </div>
             </div>
             <div className="row justify-content-center">
@@ -101,8 +103,9 @@ function Vivid() {
               </ul>
             </div>
             <div className="col-1"></div>
-            <div className="col-5 vid-img">
-              <img src={Vid1} alt="vid" className="vid1"></img>
+            <div className="col-5 vid-img" id="vivid-section">
+              {/* <img src={Vid1} alt="vid" className="vid1"></img> */}
+              <Vidbt/>
             </div>
           </div>
         )}
