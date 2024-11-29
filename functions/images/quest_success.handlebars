@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: #f2f2f2;
+            font-family: sans-serif;
+        }
+
+        .headding {
+            text-align: center;
+            margin-top: 2%;
+            padding-top: 7%;
+            color: #333333;
+        }
+
+        .head {
+            font-size: 20px;
+            letter-spacing: 2px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 1% auto;
+        }
+
+        .con2 {
+            background-color: #ffffff;
+            border-radius: 5px;
+        }
+
+        .logo {
+            padding-top: 2%;
+            text-align: center;
+        }
+
+        .name {
+            padding-left: 5%;
+            margin-top: 5%;
+            color: #333333;
+        }
+
+        .image {
+            text-align: center;
+            margin: 7% 0%;
+        }
+
+        .message {
+            margin-bottom: 2%;
+            padding: 5%;
+            line-height: 2;
+        }
+
+        .button {
+            background-color: #33ccff;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .btn {
+            text-align: center;
+            padding: 5%;
+        }
+
+        .contact {
+            padding-left: 5%;
+            padding-bottom: 1%;
+            margin-bottom: 4%;
+        }
+
+        .cont {
+            padding: 3% 5%;
+            
+
+        }
+
+        /* ancor tag styling below  */
+        a {
+            outline: none;
+            text-decoration: none;
+            padding: 2px 1px 0;
+        }
+
+        a:link {
+            color: black;
+        }
+
+        a:visited {
+            color: #33ccff;
+        }
+
+        a:focus {
+            background: #ffffff;
+        }
+        .footer{
+            text-align: center;
+            font-size: 12px;
+            color: #4d4d4d;
+            padding: 3% 0%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <div class="logo">
+                <a href="https://nexigoenergy.com/"><img src="cid:nexigo" alt="" width="25%"></a>
+            </div>
+            <div class="con2">
+                <div class="headding">
+                    <h1 class="head"><em></em></h1>
+                </div>
+                <div class="name">
+                    <p><strong>Hello,</strong> {{rec_values.username}}</p>
+                </div>
+
+                <div class="message">
+                    <p style="color: #4d4d4d;"> We have received your quotation for,<strong
+                            style="color: #333333; letter-spacing: 1px;"> {{rec_values.formname}}.
+                        </strong>
+                        </p>
+                          <div class="image"><img src="cid:img_thank" alt="" width="28%"></div>
+                    <p style="text-align: center; padding-top: 3%;"><em><strong style="letter-spacing: 1px;">Thank
+                                you.</strong></em></p>
+                                <p style="text-align: center; padding-top: 3%;"> Our
+                        marketing
+                        team will reach you within the next <strong>48 hours</strong></p>
+
+
+                </div>
+                <div class="btn">
+                <a href="https://nexigoenergy.com/"> <button class="button">Vist Nexigo</button></a>
+                </div>
+                <div class="contact ">
+                    <p><strong style="color: #4d4d4d;">For contact and more..</strong></p>
+                </div>
+                <div class="cont">
+                    <p style="color: #4d4d4d; font-size: 15px; line-height: 1.5; word-spacing: 1px;">You can always
+                        contact our <a href="https://nexigoenergy.com/About"><em>team</em></a> via the email contact@nexigoenergy.com. We
+                        are happy to help you!</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <footer >&copy; Copyright 2021 Nexigo</footer>
+        </div>
+    </div>
+
+</body>
+
+</html>

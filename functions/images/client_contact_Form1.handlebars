@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Template</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Gowun Dodum', sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .content {
+            max-width: 600px;
+            margin: 40px auto;
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .form {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        .form p {
+            color: #1e1d1d;
+            line-height: 1.6;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ddd;
+            margin: 20px 0;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .footer p {
+            margin: 0;
+            color: #f4f4f4;
+        }
+
+        .signature {
+            margin-top: 20px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Email Wrapper -->
+    <table width="100%" cellspacing="0" cellpadding="0" style="margin: 0; padding: 0; border: none;">
+        <tr>
+            <td align="center" style="background-color: #E66732; padding: 40px 0;">
+                <!-- Email Content -->
+                <div class="content" style="
+                   
+                    background-color: rgba(255, 255, 255, 0.95);
+                ">
+                    <!-- Logo -->
+                    <img src="cid:nexigo" alt="Nexigo Logo" style="max-width: 150px; margin-bottom: 20px;" />
+
+                    <!-- Message Details -->
+                    <div class="form">
+                        <p><strong>From:</strong></p>
+                        <p>{{rec_values1.email1}}</p>
+                    </div>
+                    <hr>
+
+					<div class="form">
+                        <p><strong>Name:</strong></p>
+                        <p>{{rec_values1.name}}</p>
+                    </div>
+                    <hr>
+
+
+                    <div class="form">
+                        <p><strong>Subject:</strong></p>
+                        <p>{{rec_values1.sub}}</p>
+                    </div>
+                    <hr>
+					<div class="form">
+                        <p><strong>Message:</strong></p>
+                        <p>{{rec_values1.message}}</p>
+                    </div>
+                    <hr>
+
+                 
+
+                   
+                    <!-- Signature -->
+                    <div class="signature">
+                        <p><strong>Thanks and Regards,</strong></p>
+                        <p>{{rec_values1.name}}</p>
+                    </div>
+                </div>
+
+                <!-- Footer -->
+                <div class="footer">
+                    <p>&copy; 2021 Nexigoenergy. All rights reserved.</p>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
