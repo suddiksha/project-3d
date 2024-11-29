@@ -426,7 +426,7 @@ function Product() {
                         Voltage: 46.8V - 57.6V nominal
                       </p>
                     </li>
-                    <li className="points1 pt-2" data-aos="fade-left" >
+                    <li className="points1 pt-2" >
                       Delivers 1.5x more power within the same class of weight
                       and capacity
                     </li>

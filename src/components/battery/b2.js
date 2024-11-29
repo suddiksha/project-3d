@@ -51,7 +51,7 @@ function B2({ modelRef, isActive }) {
     ? { width: "240px", height: "260px" } // screens below 700px
     : isSmallScreen
     ? { width: "280px", height: "320px" } // screens 768px or less
-    : { width: "230px", height: "420px" }; // Default size
+    : { width: "330px", height: "420px" }; // Default size
 
   const modelVariants = {
     hidden: { x: "-100vw", opacity: 0 }, 
