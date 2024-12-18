@@ -406,7 +406,7 @@ function Product() {
                   <h1 className="vigor1" data-aos="fade-left"  data-aos-duration="1000">VIGOR</h1>
                   <h2 className="best"data-aos="fade-left" data-aos-duration="1100">BEST IN CLASS PERFORMANCE</h2>
                   <h3 className="you1 pt-2" data-aos="fade-left" data-aos-duration="1200">
-                    YOU NEED <span className="vig">VIGOR</span> FOR
+                    YOU NEED<span className="vig">VIGOR</span> FOR
                     ON-THE-GO-ENERGY
                   </h3>
                   <p className="vigor-para1 pt-2" data-aos="fade-left" data-aos-duration="1400">
