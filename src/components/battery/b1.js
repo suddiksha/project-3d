@@ -48,10 +48,10 @@ function B1({ modelRef, isActive }) {
   const isExtraSmallScreen = useMediaQuery({ query: "(max-width: 700px)" });
 
   const canvasStyle = isExtraSmallScreen
-    ? { width: "240px", height: "260px" } // screens below 700px
+    ? { width: "240px", height: "280px" } // screens below 700px
     : isSmallScreen
-    ? { width: "280px", height: "320px" } // screens 768px or less
-    : { width: "340px", height: "420px" }; // Default size
+    ? { width: "280px", height: "340px" } // screens 768px or less
+    : { width: "360px", height: "420px" }; // Default size
 
   const modelVariants = {
     hidden: { x: "-100vw", opacity: 0 }, 

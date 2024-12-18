@@ -397,8 +397,8 @@ function Product() {
               <div className="row justify-content-center">
                 <div className="col-5 p-0">
                   <div className="card card-vigor"  data-aos="zoom-out-right" id="product-vigor">
-                    {/* <img src={Vigor} className="bt" alt="Battery" /> */}
-                    <V1/>
+                    <img src={Vigor} className="bt" alt="Battery" />
+                    {/* <V1/> */}
                   </div>
                 </div>
                 <div className="col-1"></div>
@@ -735,8 +735,8 @@ function Product() {
                 <div className="col-1"></div>
                 <div className="col-5">
                   <div className="card card-vigor" data-aos="zoom-out-right" id="product-vivid">
-                    {/* <img src={Vivid} className="bt1"></img> */}
-                    <V2/>
+                    <img src={Vivid} className="bt1"></img>
+                    {/* <V2/> */}
                   </div>
                 </div>
               </div>

@@ -20,9 +20,9 @@ canvas {
     height: auto; /* Auto height based on width */
   }
 @media screen and (max-width: 1200px) {
-  Canvas {
-    height: 300px !important;
-    width: 350px !important;
+  .Canvas1 {
+    height: 360px !important;
+    width: 280px !important;
   }
   
 }
