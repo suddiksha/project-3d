@@ -61,14 +61,34 @@
   width: 90%;
   line-height: 25px;
 }
-.learn-more.css-142372x-MuiButtonBase-root-MuiButton-root {
+.learn-more{
   background-color: #f5844d !important;
   margin-top: 20px !important;
-  padding: 10px 20px !important;
+  padding: 8px 15px !important;
   font-family: "Outfit", sans-serif !important;
 }
 
 
+.custom-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.custom-dots .dot {
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-dots .dot.active {
+  background-color: #f5844d;
+}
 
 @media screen and (max-width: 1200px) {
   .landing-page {
@@ -93,7 +113,7 @@
 
   .nex {
     font-family: "Outfit", sans-serif;
-    color: #f5844d;
+    color: #f5844d!important;
     font-size: 32px !important;
     font-weight: 400;
   }
@@ -144,7 +164,7 @@
     line-height: 25px;
   }
 
-  .learn-more.css-142372x-MuiButtonBase-root-MuiButton-root {
+  .learn-more{
     background-color: #f5844d !important;
     margin-top: 20px !important;
     padding: 8px 18px !important;
@@ -188,7 +208,7 @@
     line-height: 25px;
   }
 
-  .learn-more.css-142372x-MuiButtonBase-root-MuiButton-root {
+  .learn-more{
     background-color: #f5844d !important;
     margin-top: 18px !important;
     padding: 6px 16px !important;
@@ -232,7 +252,7 @@
     line-height: 25px;
   }
 
-  .learn-more.css-142372x-MuiButtonBase-root-MuiButton-root {
+  .learn-more{
     background-color: #f5844d !important;
     margin-top: 18px !important;
     padding: 6px 16px !important;
@@ -287,7 +307,7 @@
     margin-bottom: 0
   }
 
-  .learn-more1.css-142372x-MuiButtonBase-root-MuiButton-root {
+  .learn-more1 {
     background-color: #f5844d !important;
     margin-top: 18px !important;
     padding: 6px 16px !important;
@@ -343,7 +363,7 @@
     margin-bottom: 0
     }
   
-    .learn-more1.css-142372x-MuiButtonBase-root-MuiButton-root {
+    .learn-more1{
       background-color: #f5844d !important;
       margin-top: 18px !important;
       padding: 6px 16px !important;
@@ -401,7 +421,7 @@
   margin-bottom: 0
   }
 
-  .learn-more1.css-142372x-MuiButtonBase-root-MuiButton-root {
+  .learn-more1 {
     background-color: #f5844d !important;
     margin-top: 18px !important;
     padding: px 16px !important;
@@ -458,7 +478,7 @@
   margin-bottom: 0
   }
 
-  .learn-more1.css-142372x-MuiButtonBase-root-MuiButton-root {
+  .learn-more1 {
     background-color: #f5844d !important;
     margin-top: 18px !important;
     padding: px 16px !important;

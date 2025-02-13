@@ -3,7 +3,6 @@
 .vigor-sec{
  margin-top: 60px;
 padding-right: 60px;
-/* height: 100vh; */
 display: flex;          
 flex-direction: column;  
 justify-content: center; 
@@ -199,7 +198,7 @@ overflow: hidden;
       
       margin-top: 150px;
       padding: 0px 40px;
-    }
+    } 
   
     .bty-phone {
       width: 100%;

@@ -83,16 +83,15 @@
   border: none;
   cursor: pointer;
 }
-.contact-btn.css-142372x-MuiButtonBase-root-MuiButton-root {
+.contact-btn {
   background-color: #F4815A !important;
-  border-radius: 10px;
-  color: #ffff;
-  font-family: "Outfit", sans-serif;
-  font-size: 13px;
+  border-radius: 10px!important;
+  color: #ffff!important;
+  font-family: "Outfit", sans-serif!important;
+  font-size: 12px!important;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  border-radius: 24px;
 }
 .menu-button {
   background-color: transparent;
@@ -163,9 +162,9 @@
   .list-item li a {
     font-size: 12px;
   }
-  .contact-btn.css-142372x-MuiButtonBase-root-MuiButton-root {
+  .contact-btn {
     background-color: #F4815A !important;
-    border-radius: 10px;
+    border-radius: 10px!important;
     color: #ffff;
     font-family: "Outfit", sans-serif;
     font-size: 12px;

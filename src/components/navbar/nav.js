@@ -4,6 +4,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import { useMediaQuery } from "react-responsive";
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from "framer-motion";
+import { Link } from "react-router-dom"; // Import Link for React Router
 import Button from "@mui/material/Button";
 
 function Nav() {
@@ -38,56 +39,54 @@ function Nav() {
   }, [lastScrollY]);
 
   return (
-    <>
-      <div className={`nav ${isVisible ? 'visible' : 'hidden'}`}>
-        <nav className="navbar navbar-light">
-          <div className="container-fluid p-0">
-            <a className="navbar-brand text-center" href="/">
-              <img src={Logo} alt="" className="d-inline-block logo align-text-top mt-2" />
-            </a>
-            {isTabletOrMobile && (
-              <button className="menu-button" onClick={toggleDropdown}>
-                <MenuIcon className="menu" />
-              </button>
-            )}
+    <div className={`nav ${isVisible ? 'visible' : 'hidden'}`}>
+      <nav className="navbar navbar-light">
+        <div className="container-fluid p-0">
+          <Link className="navbar-brand text-center" to="/">
+            <img src={Logo} alt="" className="d-inline-block logo align-text-top mt-2" />
+          </Link>
+          {isTabletOrMobile && (
+            <button className="menu-button" onClick={toggleDropdown}>
+              <MenuIcon className="menu" />
+            </button>
+          )}
 
-            <AnimatePresence>
-              {showDropdown && isTabletOrMobile && (
-                <motion.div
-                  className="dropdown"
-                  initial={{ opacity: 0, y: -50 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: -100 }}
-                  transition={{ duration: 0.5 }}
-                >
-                  <div className="content">
-                    <a href="/product">PRODUCTS</a>
-                    <a href="/market">MARKETS</a>
-                    <a href="/cap">CAPABILITIES</a>
-                    <a href="/about">ABOUT US</a>
-                    <a href="#">CONTACT US</a>
-                  </div>
-                </motion.div>
-              )}
-            </AnimatePresence>
-
-            {!isTabletOrMobile && (
-              <ul className="list-item pt-1">
-                <li className="nav-item"><a href="/about">ABOUT US</a></li>
-                <li className="nav-item"><a href="/product">PRODUCTS</a></li>
-                <li className="nav-item"><a href="/market">MARKETS</a></li>
-                <li className="nav-item"><a href="/cap">CAPABILITIES</a></li>
-                <li className="nav-item no-line">
-  <a href="/cont">
-    <Button variant="contained" className="contact-btn">CONTACT US</Button>
-  </a>
-</li>
-              </ul>
+          <AnimatePresence>
+            {showDropdown && isTabletOrMobile && (
+              <motion.div
+                className="dropdown"
+                initial={{ opacity: 0, y: -50 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -100 }}
+                transition={{ duration: 0.5 }}
+              >
+                <div className="content">
+                  <Link to="/product">PRODUCTS</Link>
+                  <Link to="/market">MARKETS</Link>
+                  <Link to="/cap">CAPABILITIES</Link>
+                  <Link to="/about">ABOUT US</Link>
+                  <Link to="/cont">CONTACT US</Link>
+                </div>
+              </motion.div>
             )}
-          </div>
-        </nav>
-      </div>
-    </>
+          </AnimatePresence>
+
+          {!isTabletOrMobile && (
+            <ul className="list-item pt-1">
+              <li className="nav-item"><Link to="/about">ABOUT US</Link></li>
+              <li className="nav-item"><Link to="/product">PRODUCTS</Link></li>
+              <li className="nav-item"><Link to="/market">MARKETS</Link></li>
+              <li className="nav-item"><Link to="/cap">CAPABILITIES</Link></li>
+              <li className="nav-item no-line">
+                <Link to="/cont">
+                  <Button variant="contained" className="contact-btn" >CONTACT US</Button>
+                </Link>
+              </li>
+            </ul>
+          )}
+        </div>
+      </nav>
+    </div>
   );
 }
 

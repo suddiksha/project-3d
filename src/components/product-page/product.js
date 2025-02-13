@@ -61,8 +61,9 @@ function Product() {
                     YOU NEED <span className="vig">VIGOR</span> FOR
                     ON-THE-GO-ENERGY
                   </h3>
-                <div className="card card-vigor mt-5"  data-aos="zoom-out-right">
-                  <img src={Vigor} className="bt " alt="Battery" />
+                <div  data-aos="zoom-out-right">
+                  {/* <img src={Vigor} className="bt " alt="Battery" /> */}
+                  <V1/>
                 </div>
 
                 
@@ -238,8 +239,9 @@ function Product() {
                     YOU NEED<span className="vig">VIVID</span>FOR PRODUCTIVITY &
                     NO DOWN TIME
                   </h3>
-                  <div className="card card-vigor mt-5" data-aos="zoom-out-right">
-                    <img src={Vivid} className="bt1"></img>
+                  <div  data-aos="zoom-out-right">
+                    {/* <img src={Vivid} className="bt1"></img> */}
+                    <V2/>
                   </div>
                   <p className="vigor-para1 pt-5" data-aos="fade-right"  data-aos-duration="1200">
                     The VIVID is best in the WORLD battery pack for light
@@ -396,10 +398,10 @@ function Product() {
             <div className="product-vigor">
               <div className="row justify-content-center">
                 <div className="col-5 p-0">
-                  <div className="card card-vigor"  data-aos="zoom-out-right" id="product-vigor">
-                    <img src={Vigor} className="bt" alt="Battery" />
-                    {/* <V1/> */}
-                  </div>
+                  {/* <div className="card card-vigor"  data-aos="zoom-out-right" id="product-vigor"> */}
+                    {/* <img src={Vigor} className="bt" alt="Battery" /> */}
+                    <V1/>
+                  {/* </div> */}
                 </div>
                 <div className="col-1"></div>
                 <div className="col-6">
@@ -734,10 +736,10 @@ function Product() {
 
                 <div className="col-1"></div>
                 <div className="col-5">
-                  <div className="card card-vigor" data-aos="zoom-out-right" id="product-vivid">
-                    <img src={Vivid} className="bt1"></img>
-                    {/* <V2/> */}
-                  </div>
+                  {/* <div className="card card-vigor" data-aos="zoom-out-right" id="product-vivid">
+                    <img src={Vivid} className="bt1"></img> */}
+                    <V2/>
+                  {/* </div> */}
                 </div>
               </div>
             </div>

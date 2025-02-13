@@ -7,11 +7,11 @@
 
 .about-us{
     padding: 0px 60px;
-    margin-top: 60px;
+    margin-top: 150px;
     overflow: hidden;
 }
 .about-sec{
-    height: 100vh;
+
 display: flex;          
 flex-direction: column;  
 justify-content: center; 
@@ -39,7 +39,6 @@ align-items: center;
 }
 .mivi{
     margin-top: 60px;
-    height: 100vh;
     display: flex;          
     flex-direction: column;  
     justify-content: center; 

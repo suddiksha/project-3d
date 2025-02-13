@@ -1,5 +1,5 @@
 import React, { forwardRef, useRef, useEffect, useState } from "react";
-import { useGLTF, Stage} from "@react-three/drei";
+import { useGLTF, Stage, PresentationControls } from "@react-three/drei";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { motion } from "framer-motion";
 import { useMediaQuery } from "react-responsive";
@@ -86,9 +86,12 @@ function Vig({ modelRef }) {
         style={canvasStyle}
       >
         <ambientLight intensity={1.5} />
+                        <PresentationControls speed={1.5} global zoom={1.2}>
+        
           <Stage environment={null} shadows={false}>
             <Model ref={modelRef || localRef} isActive={isVisible} /> {/* Pass visibility as prop */}
           </Stage>
+          </PresentationControls>
       </Canvas>
     </motion.div>
   );

@@ -280,14 +280,15 @@ function Home() {
           </Carousel>
 
           {/* Custom Dots */}
-          <div className="custom-dots">
-            {[0, 1].map((index) => (
-              <span
-                key={index}
-                className={`dot ${index === activeSlide ? "active" : ""}`}
-                onClick={() => handleSlideChange(index)}
-              />
-            ))}
+         {/* Custom Dots */}
+<div className="custom-dots">
+  {[0, 1].map((index) => (
+    <span
+      key={index}
+      className={`dot ${index === activeSlide ? "active" : ""}`}
+      onClick={() => handleSlideChange(index)}
+    />
+  ))}
           </div>
         </div>
       )}
