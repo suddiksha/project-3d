@@ -72,7 +72,7 @@ function Cont() {
   return (
     <>
       <div className="cont-sec mb-5">
-        {/* {isCont ? (
+        {isCont ? (
           <div className="cont-phone">
             <h2 className="cont">CONTACT US</h2>
             <p className="cont-para mt-3">
@@ -150,7 +150,7 @@ function Cont() {
               </div>
             </div>
           </div>
-        ) : ( */}
+        ) : (
         <>
           <div className="row cont-us justify-content-center">
             <div className="col-12 ">
@@ -396,7 +396,7 @@ function Cont() {
             </div>
           </div>
         </>
-        {/* )} */}
+        )} 
       </div>
     </>
   );

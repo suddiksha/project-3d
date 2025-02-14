@@ -4,28 +4,34 @@ import MenuIcon from '@mui/icons-material/Menu';
 import { useMediaQuery } from "react-responsive";
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from "framer-motion";
-import { Link } from "react-router-dom"; // Import Link for React Router
+import { Link } from "react-router-dom";
 import Button from "@mui/material/Button";
 
 function Nav() {
   const isTabletOrMobile = useMediaQuery({ query: '(max-width: 900px)' });
   const [showDropdown, setShowDropdown] = useState(false);
-  const [isVisible, setIsVisible] = useState(true); // Controls navbar visibility
-  const [lastScrollY, setLastScrollY] = useState(0); // Stores the last scroll position
+  const [isVisible, setIsVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
 
   const toggleDropdown = () => {
     setShowDropdown(!showDropdown);
   };
 
+  // Close dropdown and hide navbar after selecting a link
+  const handleLinkClick = () => {
+    setShowDropdown(false);
+    setIsVisible(false); // Animate navbar up
+  };
+
   // Handle scroll direction
   const controlNavbar = () => {
     if (typeof window !== 'undefined') {
-      if (window.scrollY > lastScrollY) { // if scrolling down
-        setIsVisible(false);
-      } else { // if scrolling up
-        setIsVisible(true);
+      if (window.scrollY > lastScrollY) {
+        setIsVisible(false); // Scrolling down, hide navbar
+      } else {
+        setIsVisible(true); // Scrolling up, show navbar
       }
-      setLastScrollY(window.scrollY); // Update the last scroll position
+      setLastScrollY(window.scrollY);
     }
   };
 
@@ -61,11 +67,11 @@ function Nav() {
                 transition={{ duration: 0.5 }}
               >
                 <div className="content">
-                  <Link to="/product">PRODUCTS</Link>
-                  <Link to="/market">MARKETS</Link>
-                  <Link to="/cap">CAPABILITIES</Link>
-                  <Link to="/about">ABOUT US</Link>
-                  <Link to="/cont">CONTACT US</Link>
+                  <Link to="/product" onClick={handleLinkClick}>PRODUCTS</Link>
+                  <Link to="/market" onClick={handleLinkClick}>MARKETS</Link>
+                  <Link to="/cap" onClick={handleLinkClick}>CAPABILITIES</Link>
+                  <Link to="/about" onClick={handleLinkClick}>ABOUT US</Link>
+                  <Link to="/cont" onClick={handleLinkClick}>CONTACT US</Link>
                 </div>
               </motion.div>
             )}
@@ -79,7 +85,7 @@ function Nav() {
               <li className="nav-item"><Link to="/cap">CAPABILITIES</Link></li>
               <li className="nav-item no-line">
                 <Link to="/cont">
-                  <Button variant="contained" className="contact-btn" >CONTACT US</Button>
+                  <Button variant="contained" className="contact-btn">CONTACT US</Button>
                 </Link>
               </li>
             </ul>

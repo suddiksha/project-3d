@@ -49,11 +49,13 @@
   font-weight: 400;
 }
 .learn-more1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-color: #f5844d !important;
+  margin-top: 18px !important;
+  padding: 6px 16px !important;
+  text-align: center !important;
+  display: inline-block; /* Inline-block to allow auto margin centering */
 }
+
 .para {
   font-family: "Outfit", sans-serif;
   font-size: 18px;
@@ -311,10 +313,8 @@
     background-color: #f5844d !important;
     margin-top: 18px !important;
     padding: 6px 16px !important;
-    display: block; /* Ensures the button takes up the width of its container */
-    margin-left: auto; /* Center horizontally */
-    margin-right: auto; /* Center horizontally */
-    text-align: center; /* Center text within the button */
+    text-align: center !important;
+    display: inline-block; /* Inline-block to allow auto margin centering */
   }
 }
 
@@ -367,10 +367,8 @@
       background-color: #f5844d !important;
       margin-top: 18px !important;
       padding: 6px 16px !important;
-      display: block; /* Ensures the button takes up the width of its container */
-      margin-left: auto; /* Center horizontally */
-      margin-right: auto; /* Center horizontally */
-      text-align: center; /* Center text within the button */
+      text-align: center !important;
+      display: inline-block; /* Inline-block to allow auto margin centering */
     }
   }
   
@@ -424,11 +422,10 @@
   .learn-more1 {
     background-color: #f5844d !important;
     margin-top: 18px !important;
-    padding: px 16px !important;
-    display: block; /* Ensures the button takes up the width of its container */
-    margin-left: auto; /* Center horizontally */
-    margin-right: auto; /* Center horizontally */
-    text-align: center; /* Center text within the button */
+    padding:  16px !important;
+    text-align: center !important;
+  display: inline-block; /* Inline-block to allow auto margin centering */
+   
   }
 }
 
@@ -481,10 +478,8 @@
   .learn-more1 {
     background-color: #f5844d !important;
     margin-top: 18px !important;
-    padding: px 16px !important;
-    display: block; /* Ensures the button takes up the width of its container */
-    margin-left: auto; /* Center horizontally */
-    margin-right: auto; /* Center horizontally */
-    text-align: center; /* Center text within the button */
+    padding: 16px !important;
+    text-align: center !important;
+    display: inline-block; /* Inline-block to allow auto margin centering */
   }
 }

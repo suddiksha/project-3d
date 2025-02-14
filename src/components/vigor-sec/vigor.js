@@ -65,7 +65,7 @@ function Vigor() {
             </div>
           </div>
         ) : (
-          <div className="row justify-content-center m-0 ">
+          <div className="row justify-content-start m-0 ">
             <div className="col-5 vig-img" id="vigor-section" >
               {/* <img src={Vig1} alt="bt" className="vig1"></img> */}
               <Vigbt/>

@@ -95,6 +95,7 @@ function Home() {
                       animate={showText ? "visible" : "hidden"}
                       variants={textVariants}
                       transition={{ duration: 0.5, delay: 2 }}
+                      className="text-center"
                     >
                       <Button variant="contained" className="learn-more1">
                         LEARN MORE
@@ -146,8 +147,10 @@ function Home() {
                       animate={showText ? "visible" : "hidden"}
                       variants={textVariants}
                       transition={{ duration: 0.5, delay: 2 }}
+                      className="text-center"
+
                     >
-                      <Button variant="contained" className="learn-more1">
+                      <Button variant="contained" className="learn-more1 ">
                         LEARN MORE
                       </Button>
                     </motion.div>

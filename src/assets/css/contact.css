@@ -103,13 +103,13 @@ z-index: -1;
 
 }
 
-.submit.css-142372x-MuiButtonBase-root-MuiButton-root {
+.submit {
     background-color: #F4815A!important;
  
-    border-radius: 10px;
-    color: #ffff;
+    border-radius: 10px!important;
+    color: #ffff !important;
     font-family: "Outfit", sans-serif;
-font-size: 13.124px;
+font-size: 13.124px!important;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
@@ -118,10 +118,10 @@ border-radius: 26px;
 
 
 }
-.submit.css-142372x-MuiButtonBase-root-MuiButton-root :hover{
-  background-color: #F4815A;
-  font-family: "Outfit", sans-serif;
-border-radius: 26px;
+.submit :hover{
+  background-color: #F4815A!important;
+  font-family: "Outfit", sans-serif!important;
+border-radius: 26px!important;
 }
 
 
@@ -253,13 +253,13 @@ border-radius: 26px;
         z-index: -1;
     
     }
-    .submit.css-sghohy-MuiButtonBase-root-MuiButton-root{
-      background-color: #F4815A;
+    .submit{
+      background-color: #F4815A !important;
    
-      border-radius: 10px;
-      color: #ffff;
-      font-family: "Outfit", sans-serif;
-  font-size: 12px;
+      border-radius: 10px !important;;
+      color: #ffff !important;;
+      font-family: "Outfit", sans-serif!important;;
+  font-size: 12px !important;;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -357,13 +357,13 @@ border-radius: 26px;
         z-index: -1;
     
     }
-    .submit.css-sghohy-MuiButtonBase-root-MuiButton-root{
-      background-color: #F4815A;
+    .submit{
+      background-color: #F4815A!important;;
    
-      border-radius: 10px;
-      color: #ffff;
-      font-family: "Outfit", sans-serif;
-  font-size: 13px;
+      border-radius: 10px!important;;
+      color: #ffff!important;;
+      font-family: "Outfit", sans-serif!important;;
+  font-size: 13px!important;;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -468,13 +468,13 @@ border-radius: 26px;
   
   }
   
-  .submit.css-sghohy-MuiButtonBase-root-MuiButton-root{
-      background-color: #F4815A;
+  .submit{
+      background-color: #F4815A !important;
    
-      border-radius: 10px;
-      color: #ffff;
-      font-family: "Outfit", sans-serif;
-  font-size: 16px;
+      border-radius: 10px!important;
+      color: #ffff!important;
+      font-family: "Outfit", sans-serif!important;
+  font-size: 16px!important;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -483,10 +483,10 @@ border-radius: 26px;
   
   
   }
-  .submit.css-sghohy-MuiButtonBase-root-MuiButton-root:hover{
-    background-color: #F4815A;
-    font-family: "Outfit", sans-serif;
-  border-radius: 26px;
+  .submit:hover{
+    background-color: #F4815A!important;
+    font-family: "Outfit", sans-serif!important;
+  border-radius: 26px!important;
   }
   
   
@@ -607,12 +607,12 @@ border-radius: 26px;
   
   }
   
-  .submit.css-sghohy-MuiButtonBase-root-MuiButton-root{
-      background-color: #F4815A;
+  .submit{
+      background-color: #F4815A!important;
    
-      border-radius: 10px;
-      color: #ffff;
-      font-family: "Outfit", sans-serif;
+      border-radius: 10px!important;
+      color: #ffff!important;
+      font-family: "Outfit", sans-serif!important;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -622,10 +622,10 @@ border-radius: 26px;
   
   
   }
-  .submit.css-sghohy-MuiButtonBase-root-MuiButton-root:hover{
-    background-color: #F4815A;
-    font-family: "Outfit", sans-serif;
-  border-radius: 26px;
+  .submit{
+    background-color: #F4815A!important;
+    font-family: "Outfit", sans-serif!important;
+  border-radius: 26px!important;
   }
   
   
@@ -747,13 +747,13 @@ border-radius: 26px;
   
   }
   
-  .submit.css-sghohy-MuiButtonBase-root-MuiButton-root{
-      background-color: #F4815A;
+  .submit{
+      background-color: #F4815A!important;
    
-      border-radius: 10px;
-      color: #ffff;
-      font-family: "Outfit", sans-serif;
-  font-size: 14px;
+      border-radius: 10px!important;
+      color: #ffff!important;
+      font-family: "Outfit", sans-serif!important;
+  font-size: 14px!important;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -762,10 +762,10 @@ border-radius: 26px;
   
   
   }
-  .submit.css-sghohy-MuiButtonBase-root-MuiButton-root:hover{
-    background-color: #F4815A;
-    font-family: "Outfit", sans-serif;
-  border-radius: 26px;
+  .submit{
+    background-color: #F4815A!important;
+    font-family: "Outfit", sans-serif!important;
+  border-radius: 26px!important;
   }
   
   

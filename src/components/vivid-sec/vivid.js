@@ -65,7 +65,7 @@ function Vivid() {
            
           </div>
         ) : (
-          <div className="row justify-content-around m-0">
+          <div className="row justify-content-start m-0">
             <div className="col-6 mt-5">
               <h1 className="vivid mt-5" data-aos="fade-left">VIVID</h1>
               <h3 className="ultra pt-2" data-aos="fade-left">
